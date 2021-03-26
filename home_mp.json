@@ -1,0 +1,541 @@
+{
+	"header": {
+		"title": "Hola Test",
+		"event_data": {}
+	},
+	"items": [{
+		"ordinal": 1,
+		"id": "banking_v2",
+		"type": "BANKING_V2",
+		"partial": false,
+		"content": {
+			"items": [{
+				"content": {
+					"accessibility_text": "99190 pesos con 00 centavos",
+					"amount": {
+						"currency_symbol": "$",
+						"decimal_separator": "",
+						"formatted_amount": "99.190",
+						"formatted_cents": ""
+					},
+					"event_data": {
+						"balance_histogram": 5,
+						"hidden": false,
+						"pending_balance": false
+					},
+					"hidden": {
+						"accessibility_text": "Contenido oculto",
+						"amount": {
+							"currency_symbol": "$",
+							"decimal_separator": "",
+							"formatted_amount": "***",
+							"formatted_cents": ""
+						},
+						"event_data": {
+							"balance_histogram": 5,
+							"hidden": true,
+							"pending_balance": false
+						},
+						"hide_button": {
+							"accessibility_text": "Mostrar saldo",
+							"icon": "wallet_home_closed_eye"
+						},
+						"link": "mercadopago://my-money?from=home_mp"
+					},
+					"hide_button": {
+						"accessibility_text": "Ocultar saldo",
+						"icon": "wallet_home_opened_eye"
+					},
+					"link": "mercadopago://my-money?from=home_mp"
+				},
+				"id": "balance",
+				"partial": false,
+				"type": "BALANCE"
+			}, {
+				"content": {
+					"ftu": {
+						"accessibility_text": "Agrega tus tarjetas",
+						"event_data": {
+							"debit": false,
+							"prepaid": false,
+							"quantity": 0
+						},
+						"icon": "wallet_home_banking_cards_ftu",
+						"link": "mercadopago://cards-list/list?from=home_mp",
+						"text": "Agrega tus tarjetas"
+					}
+				},
+				"id": "cards",
+				"partial": false,
+				"type": "CARDS"
+			}]
+		}
+	}, {
+		"ordinal": 2,
+		"id": "secondary_actions",
+		"type": "SECONDARY_ACTIONS",
+		"partial": false,
+		"content": {
+			"default_tab": "payer",
+			"tabs": [{
+				"actions": [{
+					"event_data": {
+						"action_id": "actions_recharge_phone",
+						"audience": "all",
+						"bu": "4",
+						"bu_line": "10",
+						"component_id": "secondary_actions_payers_mp",
+						"content_id": "recharge_phone_mp_mlu",
+						"flow": "1",
+						"link": "mercadopago://cellphone-recharge?from=recharge_phone_mp_mlu",
+						"logic": "user_journey",
+						"position": 0
+					},
+					"icon": "wallet_home_recharge_phone",
+					"id": "recharge_phone_mp_mlu",
+					"label": {
+						"background_color": "#FFFFFF",
+						"text": "PROMO",
+						"text_color": "#FFFFFF"
+					},
+					"link": "mercadopago://cellphone-recharge?from=recharge_phone_mp_mlu",
+					"title": "Recargar\ncelular"
+				}],
+				"aware": {
+					"color": "#f23d4f",
+					"id": "f93ed91a9179892cc93dd47d9775c6fcc8c11214"
+				},
+				"id": "payer",
+				"title": "Pagar"
+			}, {
+				"actions": [{
+					"event_data": {
+						"action_id": "action_qr",
+						"audience": "all",
+						"bu": "4",
+						"bu_line": "10",
+						"component_id": "secondary_actions_sellers_mp_0",
+						"content_id": "wallet_home_charge_with_qr_mp_mlu",
+						"flow": "5",
+						"link": "mercadopago://start_new_payment?method=qr\u0026from=wallet_home_charge_with_qr_mp_mlu",
+						"logic": "user_journey",
+						"position": 0
+					},
+					"icon": "wallet_home_charge_with_qr",
+					"id": "wallet_home_charge_with_qr_mp_mlu",
+					"link": "mercadopago://start_new_payment?method=qr\u0026from=wallet_home_charge_with_qr_mp_mlu",
+					"title": "Cobrar con\n QR"
+				}, {
+					"event_data": {
+						"action_id": "secondary_link",
+						"audience": "all",
+						"bu": "4",
+						"bu_line": "8",
+						"component_id": "secondary_actions_sellers_mp_1",
+						"content_id": "charge_with_link_mp_mlu",
+						"flow": "15",
+						"link": "mercadopago://start_new_payment?method=share_social\u0026from=charge_with_link_mp_mlu",
+						"logic": "user_journey",
+						"position": 1
+					},
+					"icon": "wallet_home_charge_with_link",
+					"id": "charge_with_link_mp_mlu",
+					"link": "mercadopago://start_new_payment?method=share_social\u0026from=charge_with_link_mp_mlu",
+					"title": "Cobrar con link\nde pago"
+				}],
+				"aware": null,
+				"id": "seller",
+				"title": "Cobrar"
+			}]
+		}
+	}, {
+		"ordinal": 3,
+		"id": "qr_map",
+		"type": "PROMOTION",
+		"partial": false,
+		"content": {
+			"background_image": "instore_home_sections_background",
+			"header_title": "Paga con QR, seguro y sin efectivo",
+			"items": [{
+				"background_color": "#ffffff",
+				"border_color": "#e5e5e5",
+				"icon": "instore_home_sections_mercados_v3"
+			}, {
+				"background_color": "#ffffff",
+				"border_color": "#e5e5e5",
+				"icon": "instore_home_sections_gastronomia_v3"
+			}, {
+				"background_color": "#ffffff",
+				"border_color": "#e5e5e5",
+				"icon": "instore_home_sections_combustible_v3"
+			}, {
+				"background_color": "#ffffff",
+				"border_color": "#e5e5e5",
+				"icon": "instore_home_sections_farmacias_v3"
+			}],
+			"link": "mercadopago://discovery/map?marketplace_map=true\u0026disable_filters=true\u0026keep_looking_if_nothing_is_found=true#from=discount_center_payers",
+			"type": "qr_map"
+		}
+	}, {
+		"ordinal": 4,
+		"id": "cross_selling",
+		"type": "CAROUSEL",
+		"partial": false,
+		"content": {
+			"actions": {},
+			"header": {
+				"title": "Descubre más"
+			},
+			"items": [{
+				"content": {
+					"actions": {
+						"content_link": {
+							"action_id": "action_generar_link",
+							"event_data": {},
+							"link": "mercadopago://start_new_payment?method=share_social\u0026from=cross_selling_home_ms_link_cobro_mp_mlu",
+							"target": "internal_link"
+						}
+					},
+					"background_color": "#00B1EA",
+					"content_id": "cross_selling_home_ms_link_cobro_mp_mlu",
+					"front_image": "banner-cross-link",
+					"header": "LINK DE PAGO",
+					"text_color": "#FFFFFF",
+					"title": "COBRA POR WHATSAPP AL INSTANTE",
+					"title_border_sprite": "merchengine_home_section_cross_selling_border_sprite_dark_blue"
+				},
+				"created_at": 1595391609245350000,
+				"end_date": "2021-08-07T05:00:00.000Z",
+				"event_data": {
+					"audience": "all",
+					"bu": "4",
+					"bu_line": "8",
+					"component_id": "cross_selling_home_mp_0",
+					"content_id": "cross_selling_home_ms_link_cobro_mp_mlu",
+					"flow": "15",
+					"logic": "campaigns",
+					"position": 0
+				},
+				"exposure": 100,
+				"id": "cross_selling_home_ms_link_cobro_mp_mlu",
+				"priority": 1,
+				"realestate_id": "cross_selling_home_mp",
+				"start_date": "2020-06-24T05:00:00.000Z"
+			}, {
+				"content": {
+					"actions": {
+						"content_link": {
+							"action_id": "default_ver",
+							"event_data": {},
+							"link": "mercadopago://loyalty/webview?url=https://www.mercadopago.com.uy/promociones/qr/\u0026from=qrpayers_xsell_sanroque30_mar_mlu_all",
+							"target": "internal_link"
+						}
+					},
+					"background_color": "#FF656F",
+					"content_id": "qrpayers_xsell_sanroque30_mar_mlu_all",
+					"footer": "Tope $200 por mes",
+					"front_image": "xsell_mlu_qr_farma_san-roque-30off",
+					"header": "SAN ROQUE CON 30%OFF",
+					"text_color": "#FFFFFF",
+					"title": "¡HACÉ TUS COMPRAS DE FARMACIA Y PAGÁ MENOS!",
+					"title_border_sprite": "merchengine_home_section_cross_selling_border_sprite_light_blue"
+				},
+				"created_at": 1615583619906308000,
+				"end_date": "2021-04-01T02:00:00.000Z",
+				"event_data": {
+					"audience": "all",
+					"bu": "4",
+					"bu_line": "10",
+					"component_id": "cross_selling_home_mp_1",
+					"content_id": "qrpayers_xsell_sanroque30_mar_mlu_all",
+					"flow": "5",
+					"logic": "campaigns",
+					"position": 1
+				},
+				"exposure": 100,
+				"id": "qrpayers_xsell_sanroque30_mar_mlu_all",
+				"priority": 1,
+				"realestate_id": "cross_selling_home_mp",
+				"start_date": "2021-03-15T03:00:00.000Z"
+			}, {
+				"content": {
+					"actions": {
+						"content_link": {
+							"action_id": "default_ver",
+							"event_data": {},
+							"link": "mercadopago://cellphone-recharge/?from=recarga_xsell_scotia_mar_mlu",
+							"target": "internal_link"
+						}
+					},
+					"background_color": "#2D3277",
+					"content_id": "recarga_xsell_scotia_mar_mlu",
+					"footer": "Tope reintegro $125",
+					"front_image": "xsell_mlu_recarga-celu_scotia-50off-1",
+					"header": "¡NO TE QUEDES SIN SALDO!",
+					"text_color": "#FFFFFF",
+					"title": "50% OFF PAGANDO CON TU TARJETA SCOTIABANK",
+					"title_border_sprite": "merchengine_home_section_cross_selling_border_sprite_light_blue"
+				},
+				"created_at": 1616693598613095200,
+				"end_date": "2021-04-05T02:00:00.000Z",
+				"event_data": {
+					"audience": "all",
+					"bu": "4",
+					"bu_line": "10",
+					"component_id": "cross_selling_home_mp_2",
+					"content_id": "recarga_xsell_scotia_mar_mlu",
+					"flow": "1",
+					"logic": "campaigns",
+					"position": 2
+				},
+				"exposure": 100,
+				"id": "recarga_xsell_scotia_mar_mlu",
+				"priority": 1,
+				"realestate_id": "cross_selling_home_mp",
+				"start_date": "2021-03-25T17:00:00.000Z"
+			}]
+		},
+		"start_date": "2019-04-20T12:00:00-03:00",
+		"end_date": "2999-04-20T12:00:00-03:00"
+	}, {
+		"ordinal": 5,
+		"id": "benefits",
+		"type": "VERTICAL_LIST",
+		"partial": false,
+		"content": {
+			"actions": {},
+			"header": {
+				"title": ""
+			},
+			"items": [{
+				"content": {
+					"actions": {
+						"content_link": {
+							"action_id": "action_descuento",
+							"event_data": {},
+							"link": "mercadopago://coupon/input?title=C%C3%B3digo%20de%20descuento\u0026input_title=Ingres%C3%A1%20tu%20c%C3%B3digo%20para%20obtener%20un%20beneficio\u0026from=mlu_discount_benefits_coupon_mp_mlu",
+							"target": "internal_link"
+						}
+					},
+					"content_id": "mlu_discount_benefits_coupon_mp_mlu",
+					"icon": "merchengine_coupon_icon_mp",
+					"title": "Ingresa tu cupón"
+				},
+				"created_at": 1593483703777093400,
+				"end_date": "2099-12-31T23:59:00.000-03:00",
+				"event_data": {
+					"audience": "all",
+					"bu": "4",
+					"bu_line": "10",
+					"component_id": "discount_benefits_mp",
+					"content_id": "mlu_discount_benefits_coupon_mp_mlu",
+					"flow": "-1",
+					"logic": "user_journey",
+					"position": 0
+				},
+				"id": "mlu_discount_benefits_coupon_mp_mlu",
+				"priority": 8,
+				"realestate_id": "discount_benefits_mp",
+				"start_date": "2020-02-19T10:00:00.000-03:00"
+			}]
+		},
+		"start_date": "2019-04-20T12:00:00-03:00",
+		"end_date": "2999-04-20T12:00:00-03:00"
+	}, {
+		"ordinal": 6,
+		"id": "activities",
+		"type": "ACTIVITIES",
+		"partial": false,
+		"content": {
+			"event_data": {
+				"quantity": 3,
+				"is_ftu": false,
+				"has_footer": true
+			},
+			"activities_container": {
+				"header": {
+					"title": "Tu última actividad"
+				},
+				"shown_qty": 3,
+				"results": [{
+					"id": "order_sale-590a5ff52d0ae1a49d5d1bb66e70ecfbbfa83c16",
+					"amount": {
+						"currency_id": "UYU",
+						"symbol": "$",
+						"symbol_text": "Peso Uruguayo",
+						"fraction": "50",
+						"decimal_separator": ",",
+						"cents": "",
+						"cents_text": "",
+						"price_color": ""
+					},
+					"title": "Vendiste Item De Testeo, Por Favor No Ofertar --kc:off",
+					"type": "order",
+					"date": "05 de febrero",
+					"image": "https://http2.mlstatic.com/D_837056-MLU44820723006_022021-I.jpg",
+					"actions": {
+						"other": [{
+							"id": "archive",
+							"label": "Archivar",
+							"link": "/activities/order_sale-590a5ff52d0ae1a49d5d1bb66e70ecfbbfa83c16/archive?paymentId=13506872303"
+						}, {
+							"id": "add_note",
+							"label": "Agregar nota",
+							"link": "/activities/detail/order_sale-590a5ff52d0ae1a49d5d1bb66e70ecfbbfa83c16/#addNote"
+						}]
+					},
+					"hasNotes": false,
+					"dateGroup": "previous",
+					"link": "mercadopago://webview/?url=https%3A%2F%2Fwww.mercadopago.com.uy%2Factivities%2Fwebview-detail%2Forder_sale-590a5ff52d0ae1a49d5d1bb66e70ecfbbfa83c16\u0026authentication_mode=required\u0026authenticate=true\u0026loading_mode=none\u0026use_web_title=false\u0026title=Detalle%20de%20operaci%C3%B3n\u0026support_operators=true\u0026supported_scopes=mp_listings,activities,show_all_activities,collaborator_activities,stores_activities"
+				}, {
+					"id": "order_sale-e94eea20d3b0453bc24712e860e68eb405e965d5",
+					"amount": {
+						"currency_id": "UYU",
+						"symbol": "$",
+						"symbol_text": "Peso Uruguayo",
+						"fraction": "50",
+						"decimal_separator": ",",
+						"cents": "",
+						"cents_text": "",
+						"price_color": ""
+					},
+					"title": "Vendiste Item De Testeo, Por Favor No Ofertar --kc:off",
+					"type": "order",
+					"date": "05 de febrero",
+					"image": "https://http2.mlstatic.com/D_899132-MLU44820653189_022021-I.jpg",
+					"actions": {
+						"other": [{
+							"id": "archive",
+							"label": "Archivar",
+							"link": "/activities/order_sale-e94eea20d3b0453bc24712e860e68eb405e965d5/archive?paymentId=13506461272"
+						}, {
+							"id": "add_note",
+							"label": "Agregar nota",
+							"link": "/activities/detail/order_sale-e94eea20d3b0453bc24712e860e68eb405e965d5/#addNote"
+						}]
+					},
+					"hasNotes": false,
+					"dateGroup": "previous",
+					"link": "mercadopago://webview/?url=https%3A%2F%2Fwww.mercadopago.com.uy%2Factivities%2Fwebview-detail%2Forder_sale-e94eea20d3b0453bc24712e860e68eb405e965d5\u0026authentication_mode=required\u0026authenticate=true\u0026loading_mode=none\u0026use_web_title=false\u0026title=Detalle%20de%20operaci%C3%B3n\u0026support_operators=true\u0026supported_scopes=mp_listings,activities,show_all_activities,collaborator_activities,stores_activities"
+				}, {
+					"id": "order_sale-8a2433988a169934bb5f4d68afc012a521adc03c",
+					"amount": {
+						"currency_id": "UYU",
+						"symbol": "$",
+						"symbol_text": "Peso Uruguayo",
+						"fraction": "50",
+						"decimal_separator": ",",
+						"cents": "",
+						"cents_text": "",
+						"price_color": ""
+					},
+					"title": "Vendiste Item De Testeo, Por Favor No Ofertar --kc:off",
+					"type": "order",
+					"date": "27 de enero",
+					"image": "https://http2.mlstatic.com/D_788393-MLU44721650998_012021-I.jpg",
+					"actions": {
+						"other": [{
+							"id": "archive",
+							"label": "Archivar",
+							"link": "/activities/order_sale-8a2433988a169934bb5f4d68afc012a521adc03c/archive?paymentId=13232945832"
+						}, {
+							"id": "add_note",
+							"label": "Agregar nota",
+							"link": "/activities/detail/order_sale-8a2433988a169934bb5f4d68afc012a521adc03c/#addNote"
+						}]
+					},
+					"hasNotes": false,
+					"dateGroup": "previous",
+					"link": "mercadopago://webview/?url=https%3A%2F%2Fwww.mercadopago.com.uy%2Factivities%2Fwebview-detail%2Forder_sale-8a2433988a169934bb5f4d68afc012a521adc03c\u0026authentication_mode=required\u0026authenticate=true\u0026loading_mode=none\u0026use_web_title=false\u0026title=Detalle%20de%20operaci%C3%B3n\u0026support_operators=true\u0026supported_scopes=mp_listings,activities,show_all_activities,collaborator_activities,stores_activities"
+				}, {
+					"id": "order_sale-b6255a7d934764433c9fda7eee24ebf60f3618bc",
+					"amount": {
+						"currency_id": "UYU",
+						"symbol": "$",
+						"symbol_text": "Peso Uruguayo",
+						"fraction": "50",
+						"decimal_separator": ",",
+						"cents": "",
+						"cents_text": "",
+						"price_color": ""
+					},
+					"title": "Vendiste Item De Testeo, Por Favor No Ofertar --kc:off",
+					"type": "order",
+					"date": "27 de enero",
+					"image": "https://http2.mlstatic.com/D_723810-MLU44721537488_012021-I.jpg",
+					"actions": {
+						"other": [{
+							"id": "archive",
+							"label": "Archivar",
+							"link": "/activities/order_sale-b6255a7d934764433c9fda7eee24ebf60f3618bc/archive?paymentId=13232830895"
+						}, {
+							"id": "add_note",
+							"label": "Agregar nota",
+							"link": "/activities/detail/order_sale-b6255a7d934764433c9fda7eee24ebf60f3618bc/#addNote"
+						}]
+					},
+					"hasNotes": false,
+					"dateGroup": "previous",
+					"link": "mercadopago://webview/?url=https%3A%2F%2Fwww.mercadopago.com.uy%2Factivities%2Fwebview-detail%2Forder_sale-b6255a7d934764433c9fda7eee24ebf60f3618bc\u0026authentication_mode=required\u0026authenticate=true\u0026loading_mode=none\u0026use_web_title=false\u0026title=Detalle%20de%20operaci%C3%B3n\u0026support_operators=true\u0026supported_scopes=mp_listings,activities,show_all_activities,collaborator_activities,stores_activities"
+				}, {
+					"id": "order_purchase-fda8a677f31a9ba01e59338d12b98c9c1e2f5cf4",
+					"amount": {
+						"currency_id": "UYU",
+						"symbol": "$",
+						"symbol_text": "Peso Uruguayo",
+						"fraction": "-50",
+						"decimal_separator": ",",
+						"cents": "",
+						"cents_text": "",
+						"price_color": ""
+					},
+					"title": "Compraste Item De Testeo, Por Favor No Ofertar --kc:off",
+					"type": "order",
+					"date": "12 de enero",
+					"image": "https://http2.mlstatic.com/D_743054-MLU44560619235_012021-I.jpg",
+					"actions": {
+						"other": [{
+							"id": "add_money",
+							"label": "Agregar dinero",
+							"link": "/add-money-transfer/add?payment_id=13030474840"
+						}]
+					},
+					"hasNotes": false,
+					"dateGroup": "previous",
+					"link": "mercadopago://webview/?url=https%3A%2F%2Fwww.mercadopago.com.uy%2Factivities%2Fwebview-detail%2Forder_purchase-fda8a677f31a9ba01e59338d12b98c9c1e2f5cf4\u0026authentication_mode=required\u0026authenticate=true\u0026loading_mode=none\u0026use_web_title=false\u0026title=Detalle%20de%20operaci%C3%B3n\u0026support_operators=true\u0026supported_scopes=mp_listings,activities,show_all_activities,collaborator_activities,stores_activities"
+				}],
+				"real_time_activities": {
+					"should_be_kept": true,
+					"ttl_in_seconds": 86400
+				},
+				"footer": {
+					"title": "Ver toda tu actividad",
+					"link": "mercadopago://activities_v2_list/?from=home_mp\u0026authentication_mode=required\u0026authenticate=true\u0026swipe_gesture=true\u0026loading_mode=none\u0026use_web_title=false\u0026title=Actividad\u0026url=https%3A%2F%2Fmercadopago.com.uy%2Factivities%2Fwebview-list",
+					"accessibility_text": "Acceder a toda tu actividad"
+				}
+			},
+			"refresh_after_seconds": 45
+		}
+	}],
+	"tracking_info": {
+		"events": {
+			"print": {
+				"event_data": {},
+				"stream": "component_prints"
+			},
+			"pull": {
+				"event_data": {},
+				"stream": "melidata"
+			},
+			"show": {
+				"event_data": {},
+				"stream": "melidata"
+			}
+		},
+		"event_data": {
+			"metadata_user": {
+				"type": "newbie"
+			}
+		}
+	}
+}
