@@ -1,6 +1,6 @@
 {
   "header": {
-    "title": "Hola Developer Mode",
+    "title": "Hola DeveloperMode",
     "loyalty": {
       "subtitle": "Nivel 1 - Mercado Puntos",
       "link": "mercadopago://loyalty/webview?url=https%3A%2F%2Fwww.mercadopago.com.ar%2Fmercado-puntos%23origin%3Dwidget_header&title=Mercado%20Puntos&use_web_title=false&mp_back=menu&loading_mode=none&authenticate=true",
