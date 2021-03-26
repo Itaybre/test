@@ -1,6 +1,6 @@
 {
 	"header": {
-		"title": "Olá Test",
+		"title": "Hola Developer Mode",
 		"loyalty": {
 			"subtitle": "Nível 1 - Mercado Pontos",
 			"link": "mercadopago://loyalty/webview?url=https%3A%2F%2Fwww.mercadopago.com.br%2Fmercado-pontos%23origin%3Dwidget_header\u0026title=Mercado%20Pontos\u0026use_web_title=false\u0026mp_back=menu\u0026loading_mode=none\u0026authenticate=true",
