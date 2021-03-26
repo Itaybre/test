@@ -1,1 +1,2029 @@
-{"header":{"title":"Hola Test - Nivel 1","link":"mercadopago://loyalty/webview?url=https%3A%2F%2Fwww.mercadopago.com.ar%2Fmercado-puntos%23origin%3Dwidget_header\u0026title=Mercado%20Puntos\u0026use_web_title=false\u0026mp_back=menu\u0026loading_mode=none\u0026authenticate=true","button":{"title":"Tu CVU","link":"mercadopago://moneyin/cvu?from=home_mp"},"accessibility_text":"Hola Test Nivel 1","event_data":{"link":"mercadopago://loyalty/webview?url=https%3A%2F%2Fwww.mercadopago.com.ar%2Fmercado-puntos%23origin%3Dwidget_header\u0026title=Mercado%20Puntos\u0026use_web_title=false\u0026mp_back=menu\u0026loading_mode=none\u0026authenticate=true","button_link":"mercadopago://moneyin/cvu?from=home_mp"}},"items":[{"ordinal":1,"id":"banking_v2","type":"BANKING_V2","partial":false,"content":{"items":[{"content":{"accessibility_text":"10000 pesos con 00 centavos","amount":{"currency_symbol":"$","decimal_separator":"","formatted_amount":"10.000","formatted_cents":""},"event_data":{"balance_histogram":5,"hidden":false,"pending_balance":false},"hidden":{"accessibility_text":"Contenido oculto","amount":{"currency_symbol":"$","decimal_separator":"","formatted_amount":"***","formatted_cents":""},"event_data":{"balance_histogram":5,"hidden":true,"pending_balance":false},"hide_button":{"accessibility_text":"Mostrar saldo","icon":"wallet_home_closed_eye"},"link":"mercadopago://my-money?from=home_mp"},"hide_button":{"accessibility_text":"Ocultar saldo","icon":"wallet_home_opened_eye"},"link":"mercadopago://my-money?from=home_mp"},"id":"balance","partial":false,"type":"BALANCE"},{"content":{"event_data":{"shortcut_ids":["money_in","money_out","money_cash_out"]},"items":[{"accessibility_text":"Ingresar dinero","content_id":"general","event_data":{"component_id":"money_in","content_id":"general","enabled":true,"position":0},"id":"money_in","image_style":{"background_color":"#1A479AD1","background_color_pressed":"#33479AD1","text_color":"#009EE3"},"link":"mercadopago://moneyin/select_method","title":"Ingresar\ndinero"},{"accessibility_text":"Transferir dinero","content_id":"general_transferir","event_data":{"component_id":"money_out","content_id":"general_transferir","enabled":true,"position":1},"id":"money_out","image_style":{"background_color":"#1A479AD1","background_color_pressed":"#33479AD1","text_color":"#009EE3"},"link":"mercadopago://withdraw/","title":"Transferir\ndinero"},{"accessibility_text":"Sacar efectivo","content_id":"default_hub","event_data":{"component_id":"money_cash_out","content_id":"default_hub","enabled":true,"position":2},"id":"money_cash_out","image_style":{"background_color":"#1A479AD1","background_color_pressed":"#33479AD1","text_color":"#009EE3"},"link":"mercadopago://cashout/hub","title":"Sacar\nefectivo"}]},"id":"actions","partial":false,"type":"ACTIONS"},{"content":{"action":{"id":"start_investing","link":"mercadopago://kyc/?initiative=asset-management\u0026callback=mercadopago%3A%2F%2Fwebview%3Fauthentication_mode%3Drequired%26authenticate%3Dtrue%26back_action%3Dback%26url%3Dhttps%3A%2F%2Fmercadopago.com.ar%2Fasset-management%2Fterms-and-conditions\u0026on_pending_callback=mercadopago%3A%2F%2Fwebview%3Fauthentication_mode%3Drequired%26authenticate%3Dtrue%26back_action%3Dback%26url%3Dhttps%3A%2F%2Fmercadopago.com.ar%2Fasset-management%2Fterms-and-conditions?from=home_mp","title":"Invertir","type":"deeplink"},"event_data":{"content_id":"start_investing","optin_process":"kyc"},"title":"Invertí tu dinero"},"id":"assets","partial":false,"type":"MODAL"},{"content":{"ftu":{"accessibility_text":"Agregá tus tarjetas","event_data":{"debit":false,"prepaid":false,"quantity":0},"icon":"wallet_home_banking_cards_ftu","link":"mercadopago://cards-list/list?from=home_mp","text":"Agregá tus tarjetas"}},"id":"cards","partial":false,"type":"CARDS"}]}},{"ordinal":2,"id":"credits","type":"INFO_BANNER","partial":true},{"ordinal":3,"id":"shortcuts","type":"SHORTCUTS","partial":false,"content":{"disable_ripple":false,"event_data":{"favorite_ids":["pay_services","pay_cellphone_recharge","pay_sube","charge_point","charge_link","friends_send"],"has_view_more":true,"shortcut_ids":["pay_directv"]},"favorites":[{"content_id":"general","event_data":{"component_id":"pay_services","content_id":"general","enabled":true,"group_id":"pay","group_position":0,"has_aware":false,"has_label":false,"is_favorite":true,"position":0,"user_profile":"newbie"},"id":"pay_services","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_pay_services","icon_color":"#2BB5F1"},"link":"mercadopago://bill-payments/?additional_info=shortcuts\u0026from=home_mp\u0026version=2","title":"Pagar\nservicios"},{"content_id":"general","event_data":{"component_id":"pay_cellphone_recharge","content_id":"general","enabled":true,"group_id":"pay","group_position":0,"has_aware":false,"has_label":false,"is_favorite":true,"position":1,"user_profile":"newbie"},"id":"pay_cellphone_recharge","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_pay_cellphone_recharge","icon_color":"#2BB5F1"},"link":"mercadopago://cellphone-recharge?additional_info=shortcuts\u0026from=home_mp","title":"Recargar\ncelular"},{"content_id":"general_transporte","event_data":{"component_id":"pay_sube","content_id":"general_transporte","enabled":true,"group_id":"pay","group_position":0,"has_aware":false,"has_label":false,"is_favorite":true,"position":2,"user_profile":"newbie"},"id":"pay_sube","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_pay_sube","icon_color":"#2BB5F1"},"link":"mercadopago://entity/sube?additional_info=shortcuts\u0026from=home_mp","title":"Cargar\ntransporte"},{"content_id":"general","event_data":{"component_id":"charge_point","content_id":"general","enabled":true,"group_id":"charge","group_position":1,"has_aware":false,"has_label":false,"is_favorite":true,"position":3,"user_profile":"newbie"},"id":"charge_point","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_charge_point","icon_color":"#475EE8"},"link":"mercadopago://start_new_payment?additional_info=shortcuts\u0026from=home_mp\u0026method=point","title":"Cobrar\ncon Point"},{"content_id":"general","event_data":{"component_id":"charge_link","content_id":"general","enabled":true,"group_id":"charge","group_position":1,"has_aware":false,"has_label":false,"is_favorite":true,"position":4,"user_profile":"newbie"},"id":"charge_link","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_charge_link","icon_color":"#475EE8"},"link":"mercadopago://start_new_payment?additional_info=shortcuts\u0026from=home_mp\u0026method=share_social","title":"Cobrar con\nlink de pago"},{"content_id":"general","event_data":{"component_id":"friends_send","content_id":"general","enabled":true,"group_id":"friends","group_position":2,"has_aware":false,"has_label":false,"is_favorite":true,"position":5,"user_profile":"newbie"},"id":"friends_send","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_friends_send","icon_color":"#F75CDD"},"link":"mercadopago://send_money/?additional_info=shortcuts\u0026from=home_mp","title":"Enviar\ndinero"}],"sheet":{"collections":[{"id":"pay","shortcuts":[{"content_id":"general","event_data":{"component_id":"pay_qr","content_id":"general","enabled":true,"group_id":"pay","group_position":0,"has_aware":false,"has_label":false,"is_favorite":false,"position":0,"user_profile":"newbie"},"id":"pay_qr","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_pay_qr","icon_color":"#2BB5F1"},"link":"mercadopago://instore/scan_qr?additional_info=shortcuts\u0026from=home_mp","title":"Código\nQR"},{"content_id":"general","event_data":{"component_id":"pay_cellphone_recharge","content_id":"general","enabled":true,"group_id":"pay","group_position":0,"has_aware":false,"has_label":false,"is_favorite":false,"position":1,"user_profile":"newbie"},"id":"pay_cellphone_recharge","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_pay_cellphone_recharge","icon_color":"#2BB5F1"},"link":"mercadopago://cellphone-recharge?additional_info=shortcuts\u0026from=home_mp","title":"Recargar\ncelular"},{"content_id":"general","event_data":{"component_id":"pay_services","content_id":"general","enabled":true,"group_id":"pay","group_position":0,"has_aware":false,"has_label":false,"is_favorite":false,"position":2,"user_profile":"newbie"},"id":"pay_services","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_pay_services","icon_color":"#2BB5F1"},"link":"mercadopago://bill-payments/?additional_info=shortcuts\u0026from=home_mp\u0026version=2","title":"Pagar\nservicios"},{"content_id":"general_transporte","event_data":{"component_id":"pay_sube","content_id":"general_transporte","enabled":true,"group_id":"pay","group_position":0,"has_aware":false,"has_label":false,"is_favorite":false,"position":3,"user_profile":"newbie"},"id":"pay_sube","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_pay_sube","icon_color":"#2BB5F1"},"link":"mercadopago://entity/sube?additional_info=shortcuts\u0026from=home_mp","title":"Cargar\ntransporte"},{"content_id":"general","event_data":{"component_id":"pay_directv","content_id":"general","enabled":true,"group_id":"pay","group_position":0,"has_aware":false,"has_label":false,"is_favorite":false,"position":4,"user_profile":"newbie"},"id":"pay_directv","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_pay_directv","icon_color":"#2BB5F1"},"link":"mercadopago://bill-payments/antenna-recharge?additional_info=shortcuts\u0026from=home_mp","title":"Recargar\nDIRECTV"},{"content_id":"mla","event_data":{"component_id":"pay_highway","content_id":"mla","enabled":true,"group_id":"pay","group_position":0,"has_aware":false,"has_label":false,"is_favorite":false,"position":5,"user_profile":"newbie"},"id":"pay_highway","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_pay_highway","icon_color":"#2BB5F1"},"link":"mercadopago://sp-prepaid?additional_info=shortcuts\u0026from=home_mp\u0026init_vertical=toll","title":"TelePASE"},{"content_id":"default_mla","event_data":{"component_id":"pay_donate","content_id":"default_mla","enabled":true,"group_id":"pay","group_position":0,"has_aware":false,"has_label":false,"is_favorite":false,"position":6,"user_profile":"newbie"},"id":"pay_donate","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_pay_donate","icon_color":"#2BB5F1"},"link":"mercadopago://webview?additional_info=shortcuts\u0026from=home_mp\u0026title=Donar\u0026url=https%3A%2F%2Fwww.mercadopago.com.ar%2Fc%2Fhub%2Fong\u0026use_web_title=false","title":"Donar"}],"title":"Pagar"},{"id":"charge","shortcuts":[{"content_id":"general","event_data":{"component_id":"charge_point","content_id":"general","enabled":true,"group_id":"charge","group_position":1,"has_aware":false,"has_label":false,"is_favorite":false,"position":0,"user_profile":"newbie"},"id":"charge_point","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_charge_point","icon_color":"#475EE8"},"link":"mercadopago://start_new_payment?additional_info=shortcuts\u0026from=home_mp\u0026method=point","title":"Cobrar\ncon Point"},{"content_id":"general","event_data":{"component_id":"charge_link","content_id":"general","enabled":true,"group_id":"charge","group_position":1,"has_aware":false,"has_label":false,"is_favorite":false,"position":1,"user_profile":"newbie"},"id":"charge_link","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_charge_link","icon_color":"#475EE8"},"link":"mercadopago://start_new_payment?additional_info=shortcuts\u0026from=home_mp\u0026method=share_social","title":"Cobrar con\nlink de pago"},{"content_id":"general","event_data":{"component_id":"charge_qr","content_id":"general","enabled":true,"group_id":"charge","group_position":1,"has_aware":false,"has_label":false,"is_favorite":false,"position":2,"user_profile":"newbie"},"id":"charge_qr","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_charge_qr","icon_color":"#475EE8"},"link":"mercadopago://start_new_payment?additional_info=shortcuts\u0026from=home_mp\u0026method=qr","title":"Cobrar\ncon QR"}],"title":"Cobrar"},{"id":"friends","shortcuts":[{"content_id":"general","event_data":{"component_id":"friends_send","content_id":"general","enabled":true,"group_id":"friends","group_position":2,"has_aware":false,"has_label":false,"is_favorite":false,"position":0,"user_profile":"newbie"},"id":"friends_send","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_friends_send","icon_color":"#F75CDD"},"link":"mercadopago://send_money/?additional_info=shortcuts\u0026from=home_mp","title":"Enviar\ndinero"},{"content_id":"general","event_data":{"component_id":"friends_request","content_id":"general","enabled":true,"group_id":"friends","group_position":2,"has_aware":false,"has_label":false,"is_favorite":false,"position":1,"user_profile":"newbie"},"id":"friends_request","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_friends_request_v2","icon_color":"#F75CDD"},"link":"mercadopago://mplayer/money_request?additional_info=shortcuts\u0026from=home_mp","title":"Pedir\ndinero"},{"content_id":"general","event_data":{"component_id":"friends_split","content_id":"general","enabled":true,"group_id":"friends","group_position":2,"has_aware":false,"has_label":false,"is_favorite":false,"position":2,"user_profile":"newbie"},"id":"friends_split","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_friends_split","icon_color":"#F75CDD"},"link":"mercadopago://mplayer/money_split?additional_info=shortcuts\u0026from=home_mp","title":"Dividir\ngastos"},{"content_id":"general","event_data":{"component_id":"friends_hub","content_id":"general","enabled":true,"group_id":"friends","group_position":2,"has_aware":false,"has_label":false,"is_favorite":false,"position":3,"user_profile":"newbie"},"id":"friends_hub","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_friends_hub_v2","icon_color":"#F75CDD"},"link":"mercadopago://mplayer/events?additional_info=shortcuts\u0026from=home_mp","title":"Amigos"}],"title":"Compartir gastos con amigos"},{"id":"marketplace","shortcuts":[{"content_id":"marketplace_mla","event_data":{"component_id":"benefits_discounts","content_id":"marketplace_mla","enabled":true,"group_id":"marketplace","group_position":3,"has_aware":false,"has_label":false,"is_favorite":false,"position":0,"user_profile":"newbie"},"id":"benefits_discounts","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_discover_stores","icon_color":"#FF7079"},"link":"mercadopago://discount_center_payers/list?additional_info=shortcuts\u0026from=home_mp#from=/home_wallet/shortcuts","title":"Descubrir\nlocales"},{"content_id":"default","event_data":{"component_id":"marketplace_discounts","content_id":"default","enabled":true,"group_id":"marketplace","group_position":3,"has_aware":false,"has_label":false,"is_favorite":false,"position":1,"user_profile":"newbie"},"id":"marketplace_discounts","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_benefits_discounts","icon_color":"#FF7079"},"link":"mercadopago://discount_center_payers/list?additional_info=shortcuts\u0026cluster_id=all_stores_rank\u0026dynamic_discount=true\u0026from=home_mp\u0026skeleton_id=list#from=/home_wallet/shortcuts","title":"Descuentos"}],"title":"Dónde comprar"},{"id":"benefits_v2","shortcuts":[{"content_id":"general","event_data":{"component_id":"benefits_coupon","content_id":"general","enabled":true,"group_id":"benefits_v2","group_position":4,"has_aware":false,"has_label":false,"is_favorite":false,"position":0,"user_profile":"newbie"},"id":"benefits_coupon","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_benefits_coupon","icon_color":"#9B55EA"},"link":"mercadopago://coupon/input?additional_info=shortcuts\u0026from=home_mp","title":"Ingresar\ncupón"},{"content_id":"general","event_data":{"component_id":"benefits_loyalty","content_id":"general","enabled":true,"group_id":"benefits_v2","group_position":4,"has_aware":false,"has_label":false,"is_favorite":false,"position":1,"user_profile":"newbie"},"id":"benefits_loyalty","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_benefits_loyalty","icon_color":"#9B55EA"},"link":"mercadopago://loyalty/webview?additional_info=shortcuts\u0026authenticate=true\u0026back_action=close\u0026back_style=menu\u0026from=home_mp\u0026mp_back=menu\u0026swipe_gesture=true\u0026title=Mercado%20Puntos\u0026url=https%3A%2F%2Fwww.mercadopago.com.ar%2Fmercado-puntos\u0026use_web_title=false","title":"Mercado\nPuntos"}],"title":"Tus beneficios"},{"id":"mgm","shortcuts":[{"content_id":"general_mla","event_data":{"component_id":"mgm_point","content_id":"general_mla","enabled":true,"group_id":"mgm","group_position":5,"has_aware":false,"has_label":false,"is_favorite":false,"position":0,"user_profile":"newbie"},"id":"mgm_point","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_mgm_point_mla","icon_color":"#F2AB39"},"link":"mercadopago://webview?additional_info=shortcuts\u0026from=home_mp\u0026url=https%3A%2F%2Fwww.mercadopago.com.ar%2Fmp%2Finvita-y-gana%2Fwebview","title":"Recomendar\nPoint"},{"content_id":"default_mla","event_data":{"component_id":"mgm_payer","content_id":"default_mla","enabled":true,"group_id":"mgm","group_position":5,"has_aware":false,"has_label":false,"is_favorite":false,"position":1,"user_profile":"newbie"},"id":"mgm_payer","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_mgm_payer","icon_color":"#F2AB39"},"link":"mercadopago://mgm/share?additional_info=shortcuts\u0026from=home_mp\u0026program_id=1","title":"Recomendar\nla app"}],"title":"Invitá y ganá"},{"id":"business","shortcuts":[{"content_id":"general","event_data":{"component_id":"business_dashboard","content_id":"general","enabled":true,"group_id":"business","group_position":6,"has_aware":false,"has_label":false,"is_favorite":false,"position":0,"user_profile":"newbie"},"id":"business_dashboard","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_business_dashboard_v2","icon_color":"#578474"},"link":"mercadopago://dashboard?additional_info=shortcuts\u0026from=home_mp","title":"Métricas de\ntu negocio"},{"content_id":"general","event_data":{"component_id":"business_fees_installments","content_id":"general","enabled":true,"group_id":"business","group_position":6,"has_aware":false,"has_label":false,"is_favorite":false,"position":1,"user_profile":"newbie"},"id":"business_fees_installments","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_business_fees_installments_v2","icon_color":"#578474"},"link":"mercadopago://select_rates?additional_info=shortcuts\u0026from=home_mp","title":"Tasas y\nplazos"},{"content_id":"general","event_data":{"component_id":"business_costs_simulator","content_id":"general","enabled":true,"group_id":"business","group_position":6,"has_aware":false,"has_label":false,"is_favorite":false,"position":2,"user_profile":"newbie"},"id":"business_costs_simulator","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_business_costs_simulator_v3","icon_color":"#578474"},"link":"mercadopago://cost_calculator_chooser?additional_info=shortcuts\u0026from=home_mp","title":"Simulador\nde costos"},{"content_id":"general","event_data":{"component_id":"business_pos_management","content_id":"general","enabled":true,"group_id":"business","group_position":6,"has_aware":false,"has_label":false,"is_favorite":false,"position":3,"user_profile":"newbie"},"id":"business_pos_management","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_business_pos_management_v2","icon_color":"#578474"},"link":"mercadopago://cash_balance/opt_in?additional_info=shortcuts\u0026from=home_mp","title":"Gestión de\ncaja"},{"content_id":"general","event_data":{"component_id":"business_stores_pos","content_id":"general","enabled":true,"group_id":"business","group_position":6,"has_aware":false,"has_label":false,"is_favorite":false,"position":4,"user_profile":"newbie"},"id":"business_stores_pos","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_business_stores_pos_v3","icon_color":"#578474"},"link":"mercadopago://stores_pos?additional_info=shortcuts\u0026from=home_mp","title":"Locales y\ncajas"},{"content_id":"general","event_data":{"component_id":"business_colaborators","content_id":"general","enabled":true,"group_id":"business","group_position":6,"has_aware":false,"has_label":false,"is_favorite":false,"position":5,"user_profile":"newbie"},"id":"business_colaborators","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_business_colaborators_v2","icon_color":"#578474"},"link":"mercadopago://collaborators?additional_info=shortcuts\u0026from=home_mp","title":"Colaboradores"},{"content_id":"general","event_data":{"component_id":"business_catalog","content_id":"general","enabled":true,"group_id":"business","group_position":6,"has_aware":false,"has_label":false,"is_favorite":false,"position":6,"user_profile":"newbie"},"id":"business_catalog","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_business_catalog_v2","icon_color":"#578474"},"link":"mercadopago://catalog?additional_info=shortcuts\u0026from=home_mp","title":"Catálogo de\nproductos"},{"content_id":"mla_2_124","event_data":{"component_id":"business_discounts_admin","content_id":"mla_2_124","enabled":true,"group_id":"business","group_position":6,"has_aware":false,"has_label":false,"is_favorite":false,"position":7,"user_profile":"newbie"},"id":"business_discounts_admin","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_business_discounts_admin","icon_color":"#578474"},"link":"mercadopago://webview/?additional_info=shortcuts\u0026authentication_mode=required\u0026from=home_mp\u0026url=https%3A%2F%2Fmercadopago.com.ar%2Finstore%2Fself-service-discounts%2F\u0026use_web_title=true","title":"Administrar\ndescuentos"}],"title":"Tu negocio"},{"id":"money","shortcuts":[{"content_id":"general","event_data":{"component_id":"money_in","content_id":"general","enabled":true,"group_id":"money","group_position":7,"has_aware":false,"has_label":false,"is_favorite":false,"position":0,"user_profile":"newbie"},"id":"money_in","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_money_in","icon_color":"#444444"},"link":"mercadopago://moneyin/select_method?additional_info=shortcuts\u0026from=home_mp","title":"Ingresar\ndinero"},{"content_id":"general_transferir","event_data":{"component_id":"money_out","content_id":"general_transferir","enabled":true,"group_id":"money","group_position":7,"has_aware":false,"has_label":false,"is_favorite":false,"position":1,"user_profile":"newbie"},"id":"money_out","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_money_out","icon_color":"#444444"},"link":"mercadopago://withdraw/?additional_info=shortcuts\u0026from=home_mp","title":"Transferir\ndinero"},{"content_id":"default_hub","event_data":{"component_id":"money_cash_out","content_id":"default_hub","enabled":true,"group_id":"money","group_position":7,"has_aware":false,"has_label":false,"is_favorite":false,"position":2,"user_profile":"newbie"},"id":"money_cash_out","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_money_cash_out_v2","icon_color":"#444444"},"link":"mercadopago://cashout/hub?additional_info=shortcuts\u0026from=home_mp","title":"Sacar\nefectivo"}],"title":"Tu dinero"}],"event_data":{"favorites_ids":null,"group_ids":["pay","charge","friends","marketplace","benefits_v2","mgm","business","money"],"shortcut_ids":["pay_qr","pay_cellphone_recharge","pay_services","pay_sube","pay_directv","pay_highway","pay_donate","charge_point","charge_link","charge_qr","friends_send","friends_request","friends_split","friends_hub","benefits_discounts","marketplace_discounts","benefits_coupon","benefits_loyalty","mgm_point","mgm_payer","business_dashboard","business_fees_installments","business_costs_simulator","business_pos_management","business_stores_pos","business_colaborators","business_catalog","business_discounts_admin","money_in","money_out","money_cash_out"]},"favorites":{"action":{"cancel":"Cancelar","edit":"Editar favoritos","save":"Guardar","success":"¡Listo! Disfrutá ahora tus favoritos"},"disable_ftu":false,"empty_collection_message":"¡Son todos favoritos!","header":{"edit":"Tus favoritos","ftu":"Tus favoritos","select":"Descubrí más"},"max":6,"message":{"edit":"Podés elegir hasta 6 atajos y ordenarlos como quieras.","ftu":"Elegí los atajos que quieras, \n¡personalizá tu app!","max_reached":"Tenés 6 atajos, eliminá uno antes de sumar otro."},"modal":{"primary_button":{"text":"Guardar"},"secondary_button":{"text":"Descartar"},"title":"¿Querés guardar los últimos cambios?"}},"force_rehash":true,"header":{"title":"Descubrí más"},"tracking_info":{"events":{"print":{"event_data":{},"stream":"component_prints"},"pull":{"event_data":{}},"show":{"event_data":{}}}}},"shortcuts":[{"content_id":"general | business_shortcut","event_data":{"component_id":"pay_directv","content_id":"general | business_shortcut","enabled":true,"group_id":"pay","group_position":0,"has_aware":false,"has_label":true,"is_favorite":false,"logic":"business","position":6,"user_profile":"newbie"},"id":"pay_directv","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_shortcuts_pay_directv","icon_color":"#2BB5F1"},"label":{"background_color":"#009EE3","border_color":"#009EE3","text":"CONOCÉ","text_color":"#FFFFFF"},"link":"mercadopago://bill-payments/antenna-recharge?additional_info=shortcuts\u0026from=home_mp","title":"Recargar\nDIRECTV"}],"view_more":{"accessibility_text":"Mostrar más accesos","content_id":"default","event_data":{"component_id":"view_more","content_id":"default","enabled":true,"has_aware":false,"has_label":false,"is_favorite":false,"position":7,"user_profile":"newbie"},"id":"view_more","image_style":{"background_color":"#FFFFFF","icon":"wallet_home_view_more","icon_color":"#595959"},"link":"mercadopago://shortcuts_sheet/?section_id=shortcuts","title":"Ver más"}}},{"ordinal":4,"id":"discount_center","type":"DISCOUNT_CENTER","partial":false,"content":{"event_data":{},"experiments":{},"footer":{"accessibility_text":"Acceder a todos los descuentos","label":"Ver descuentos y descubrir locales","link":"mercadopago://discount_center_payers/list?from=home_mp#from=/home_wallet/discount_center"},"title":"Descuentos para vos","touchpoint":{"additional_edge_insets":{"bottom":16,"left":32,"right":16,"top":16},"content":{"items":[{"background_color":"#ffffff","distance_icon":"discount_payers_icon_location","image":"https://mla-s2-p.mlstatic.com/952355-MLA43021457837_082020-O.jpg","link":"mercadopago://discount_center_payers/list?skeleton_id=list\u0026cluster_id=all_stores_rank\u0026dynamic_categories=markets\u0026dynamic_discount=true\u0026from=home_mp#from=/home_wallet/discount_center","main_label":"50%","subtitle":"Ver más","subtitle_format":{"color":"#009EE3","size":14,"weight":"semibold"},"text_color":"#000000","title":"Mercados","top_label":"Hasta","tracking":{"tracking_id":"markets"}},{"background_color":"#ffffff","distance_icon":"discount_payers_icon_location","image":"https://mla-s2-p.mlstatic.com/809528-MLA43021457803_082020-O.jpg","link":"mercadopago://discount_center_payers/list?skeleton_id=list\u0026cluster_id=all_stores_rank\u0026dynamic_categories=gastronomy\u0026dynamic_discount=true\u0026from=home_mp#from=/home_wallet/discount_center","main_label":"30%","subtitle":"Ver más","subtitle_format":{"color":"#009EE3","size":14,"weight":"semibold"},"text_color":"#000000","title":"Restaurantes","top_label":"Hasta","tracking":{"tracking_id":"gastronomy"}},{"background_color":"#ffffff","distance_icon":"discount_payers_icon_location","image":"https://mla-s2-p.mlstatic.com/627453-MLA44053712097_112020-O.jpg","link":"mercadopago://discount_center_payers/list?skeleton_id=list\u0026cluster_id=all_stores_rank\u0026dynamic_categories=coffee_shops\u0026dynamic_discount=true\u0026from=home_mp#from=/home_wallet/discount_center","main_label":"40%","subtitle":"Ver más","subtitle_format":{"color":"#009EE3","size":14,"weight":"semibold"},"text_color":"#000000","title":"Café y dulces","top_label":"Hasta","tracking":{"tracking_id":"coffee_shops"}},{"background_color":"#ffffff","distance_icon":"discount_payers_icon_location","image":"https://mla-s2-p.mlstatic.com/630274-MLA44053712148_112020-O.jpg","link":"mercadopago://discount_center_payers/list?skeleton_id=list\u0026cluster_id=all_stores_rank\u0026dynamic_categories=ice_cream\u0026dynamic_discount=true\u0026from=home_mp#from=/home_wallet/discount_center","main_label":"30%","subtitle":"Ver más","subtitle_format":{"color":"#009EE3","size":14,"weight":"semibold"},"text_color":"#000000","title":"Heladerías","top_label":"Hasta","tracking":{"tracking_id":"ice_cream"}},{"background_color":"#ffffff","distance_icon":"discount_payers_icon_location","image":"https://mla-s1-p.mlstatic.com/643677-MLA43021534656_082020-O.jpg","link":"mercadopago://discount_center_payers/list?skeleton_id=list\u0026cluster_id=all_stores_rank\u0026dynamic_categories=bars\u0026dynamic_discount=true\u0026from=home_mp#from=/home_wallet/discount_center","main_label":"20%","subtitle":"Ver más","subtitle_format":{"color":"#009EE3","size":14,"weight":"semibold"},"text_color":"#000000","title":"Bares","top_label":"Hasta","tracking":{"tracking_id":"bars"}},{"background_color":"#ffffff","distance_icon":"discount_payers_icon_location","image":"https://mla-s1-p.mlstatic.com/971671-MLA43021534702_082020-O.jpg","link":"mercadopago://discount_center_payers/list?skeleton_id=list\u0026cluster_id=all_stores_rank\u0026dynamic_categories=pharmacies\u0026dynamic_discount=true\u0026from=home_mp#from=/home_wallet/discount_center","main_label":"20%","subtitle":"Ver más","subtitle_format":{"color":"#009EE3","size":14,"weight":"semibold"},"text_color":"#000000","title":"Farmacias","top_label":"Hasta","tracking":{"tracking_id":"pharmacies"}},{"background_color":"#ffffff","distance_icon":"discount_payers_icon_location","image":"https://mla-s2-p.mlstatic.com/659148-MLA43021534684_082020-O.jpg","link":"mercadopago://discount_center_payers/list?skeleton_id=list\u0026cluster_id=all_stores_rank\u0026dynamic_categories=beauty\u0026dynamic_discount=true\u0026from=home_mp#from=/home_wallet/discount_center","main_label":"50%","subtitle":"Ver más","subtitle_format":{"color":"#009EE3","size":14,"weight":"semibold"},"text_color":"#000000","title":"Belleza","top_label":"Hasta","tracking":{"tracking_id":"beauty"}},{"background_color":"#ffffff","distance_icon":"discount_payers_icon_location","image":"https://mla-s2-p.mlstatic.com/883154-MLA43021534769_082020-O.jpg","link":"mercadopago://discount_center_payers/list?skeleton_id=list\u0026cluster_id=all_stores_rank\u0026dynamic_categories=gas\u0026dynamic_discount=true\u0026from=home_mp#from=/home_wallet/discount_center","main_label":"20%","subtitle":"Ver más","subtitle_format":{"color":"#009EE3","size":14,"weight":"semibold"},"text_color":"#000000","title":"Combustible","top_label":"Hasta","tracking":{"tracking_id":"gas"}}]},"id":"mp_home","type":"CAROUSEL"}}},{"ordinal":5,"id":"qr_map","type":"PROMOTION","partial":false,"content":{"background_image":"instore_home_sections_background","header_title":"Descubrí locales\ncerca de donde estés","items":[{"background_color":"#ffffff","border_color":"#e5e5e5","icon":"instore_home_sections_mercados_v3"},{"background_color":"#ffffff","border_color":"#e5e5e5","icon":"instore_home_sections_gastronomia_v3"},{"background_color":"#ffffff","border_color":"#e5e5e5","icon":"instore_home_sections_combustible_v3"},{"background_color":"#ffffff","border_color":"#e5e5e5","icon":"instore_home_sections_farmacias_v3"}],"link":"mercadopago://discount_center_payers/list?from=home_mp#from=/home_wallet/qr_map","type":"qr_map"}},{"ordinal":6,"id":"cross_selling","type":"CAROUSEL","partial":false,"content":{"actions":{},"experiments":{"wallet/merch_cross_sell_sort_hide_strategies":"4912"},"header":{"title":"Descubrí más"},"items":[{"content":{"actions":{"content_link":{"action_id":"buy_point","event_data":{},"link":"mercadopago://webview?url=https%3A%2F%2Fwww.mercadopago.com.ar%2Fpoint%2Finvite%3Fcode%3DHOMEMP%26utm_source%3Dapp%26utm_medium%3Dbanner%26utm_campaign%3Dpoint_mla_POSlanzamientomultiproducto_smart_feb\u0026from=point_mla_POSlanzamientomultiproducto_smart_feb","target":"internal_link"}},"background_color":"#354DDD","content_id":"point_mla_POSlanzamientomultiproducto_smart_feb","front_image":"imagen_multiproducto_mla","header":"POINT","text_color":"#ffffff","title":"EMPEZÁ A ACEPTAR TARJETAS","title_border_sprite":"merchengine_home_section_cross_selling_border_sprite_light_blue"},"created_at":1610717134241843700,"end_date":"2021-10-31T02:00:00.000Z","event_data":{"audience":"all_no_buy_point","bu":"4","bu_line":"9","component_id":"cross_selling_home_mp_0","content_id":"point_mla_POSlanzamientomultiproducto_smart_feb","flow":"49","logic":"4912_ME_campaigns","position":0},"exposure":100,"id":"point_mla_POSlanzamientomultiproducto_smart_feb","priority":9,"realestate_id":"cross_selling_home_mp","start_date":"2021-02-08T03:00:00.000Z"},{"content":{"actions":{"content_link":{"action_id":"go_mgm","event_data":{},"link":"mercadopago://webview?url=https://www.mercadopago.com.ar/mp/invita-y-gana/webview\u0026from=MLA_MP_BANN-MP_X_P_MGM_ADQ_SELL_20210318_MGM_ALWAYSON","target":"internal_link"}},"background_color":"#F5A018","content_id":"MLA_MP_BANN-MP_X_P_MGM_ADQ_SELL_20210318_MGM_ALWAYSON","front_image":"xsell_mla_mgm_point-multi_monedas","header":"GANÁ DINERO EXTRA","text_color":"#312004","title":"RECOMENDÁ POINT Y GANÁ $500","title_border_sprite":"merchengine_home_section_cross_selling_border_sprite_dark_blue"},"created_at":1616075068507647000,"end_date":"2023-04-01T02:00:00.000Z","event_data":{"audience":"all","bu":"4","bu_line":"9","component_id":"cross_selling_home_mp_1","content_id":"MLA_MP_BANN-MP_X_P_MGM_ADQ_SELL_20210318_MGM_ALWAYSON","flow":"62","logic":"4912_ME_campaigns","position":1},"exposure":100,"id":"MLA_MP_BANN-MP_X_P_MGM_ADQ_SELL_20210318_MGM_ALWAYSON","priority":8,"realestate_id":"cross_selling_home_mp","start_date":"2021-03-18T03:00:00.000Z"},{"content":{"actions":{"content_link":{"action_id":"default","event_data":{},"link":"mercadopago://mplayer/money_request?from=banner_xselling_pedido_mla","target":"internal_link"}},"background_color":"#DF05BB","content_id":"banner_xselling_pedido_mla","front_image":"Pedido_MLA_MLB_MLC_MLM","header":"PEDIDO DE DINERO","text_color":"#FFFFFF","title":"JUNTÁ PLATA CON AMIGOS\nY RECIBILA EN EL MOMENTO","title_border_sprite":"merchengine_home_section_cross_selling_border_sprite_dark_blue"},"created_at":1595390295775975700,"end_date":"2024-01-01T02:00:00.000Z","event_data":{"audience":"all","bu":"4","bu_line":"10","component_id":"cross_selling_home_mp_2","content_id":"banner_xselling_pedido_mla","flow":"20","logic":"4912_ME_user_journey","position":2},"exposure":100,"id":"banner_xselling_pedido_mla","priority":5,"realestate_id":"cross_selling_home_mp","start_date":"2020-04-28T13:00:00.000Z"},{"content":{"actions":{"content_link":{"action_id":"default","event_data":{},"link":"mercadopago://cellphone-recharge?from=cross_selling_home_cellphone_recharge_mp_mla_all","target":"internal_link"}},"background_color":"#1d2647","content_id":"cross_selling_home_cellphone_recharge_mp_mla_all","footer":"","front_image":"merchengine_home_section_cross_selling_recharge_phone","header":"RECARGA DE CELULAR","text_color":"#ffffff","title":"RECARGÁ CRÉDITO DE CELULAR AL INSTANTE Y SIN EFECTIVO","title_border_sprite":"merchengine_home_section_cross_selling_border_sprite_light_blue"},"created_at":1595390291481193700,"end_date":"2099-01-01T23:11:10.000-03:00","event_data":{"audience":"dormant_never_cellphone_recharge_payer","bu":"4","bu_line":"10","component_id":"cross_selling_home_mp_3","content_id":"cross_selling_home_cellphone_recharge_mp_mla_all","flow":"1","logic":"4912_ME_user_journey","position":3},"exposure":100,"id":"cross_selling_home_cellphone_recharge_mp_mla_all","priority":3,"realestate_id":"cross_selling_home_mp","start_date":"2019-06-19T12:00:00.000-03:00"},{"content":{"actions":{"content_link":{"action_id":"default","event_data":{},"link":"mercadopago://asset-management/?from=cross_selling_home_asset_management_mp_mlb_asset_management_eligible","target":"internal_link"}},"background_color":"#00b1ea","content_id":"cross_selling_home_asset_management_mp_mlb_asset_management_eligible","footer":"","front_image":"merchengine_home_section_cross_selling_asset_management","header":"¡RENDIMIENTOS TE ESPERAN!","text_color":"#ffffff","title":"GENERÁ RENDIMIENTOS Y USÁ TU PLATA AL INSTANTE","title_border_sprite":"merchengine_home_section_cross_selling_border_sprite_dark_blue"},"created_at":1595390292926868700,"end_date":"2099-01-01T23:11:10.000-03:00","event_data":{"audience":"asset_management_eligible","bu":"4","bu_line":"3","component_id":"cross_selling_home_mp_4","content_id":"cross_selling_home_asset_management_mp_mlb_asset_management_eligible","flow":"10","logic":"4912_ME_user_journey","position":4},"exposure":100,"id":"cross_selling_home_asset_management_mp_mlb_asset_management_eligible","priority":3,"realestate_id":"cross_selling_home_mp","start_date":"2019-06-19T12:00:00.000-03:00"},{"content":{"actions":{"content_link":{"action_id":"default","event_data":{},"link":"mercadopago://moneyin/select_method?from=cross_selling_home_cobranded_mp_mla_never_account_funding_range","target":"internal_link"}},"background_color":"#1d2647","content_id":"cross_selling_home_cobranded_mp_mla_never_account_funding_range","footer":"","front_image":"merchengine_home_section_cross_selling_send_money_mla_2019_10_b","header":"INGRESO DE DINERO","text_color":"#ffffff","title":"TRANSFERÍ DINERO DE TU BANCO A MERCADO PAGO","title_border_sprite":"merchengine_home_section_cross_selling_border_sprite_light_blue"},"created_at":1595390293396072200,"end_date":"2099-01-01T23:11:10.000-03:00","event_data":{"audience":"never_account_funding_range","bu":"4","bu_line":"3","component_id":"cross_selling_home_mp_5","content_id":"cross_selling_home_cobranded_mp_mla_never_account_funding_range","flow":"9","logic":"4912_ME_user_journey","position":5},"id":"cross_selling_home_cobranded_mp_mla_never_account_funding_range","priority":3,"realestate_id":"cross_selling_home_mp","start_date":"2019-06-19T12:00:00.000-03:00"},{"content":{"actions":{"content_link":{"action_id":"default","event_data":{},"link":"mercadopago://bill-payments/?from=cross_selling_home_service_mp_mla_all","target":"internal_link"}},"background_color":"#2e59af","content_id":"cross_selling_home_service_mp_mla_all","footer":"","front_image":"merchengine_home_section_cross_selling_pay_services","header":"SIN FILAS","text_color":"#ffffff","title":"¡PAGÁ TUS SERVICIOS DESDE CASA!","title_border_sprite":"merchengine_home_section_cross_selling_border_sprite_light_blue"},"created_at":1595390293864952000,"end_date":"2099-01-01T23:11:10.000-03:00","event_data":{"audience":"dormant_never_utilities_payer","bu":"4","bu_line":"10","component_id":"cross_selling_home_mp_6","content_id":"cross_selling_home_service_mp_mla_all","flow":"2","logic":"4912_ME_user_journey","position":6},"id":"cross_selling_home_service_mp_mla_all","priority":3,"realestate_id":"cross_selling_home_mp","start_date":"2019-06-19T12:00:00.000-03:00"},{"content":{"actions":{"content_link":{"action_id":"default","event_data":{},"link":"mercadopago://mp/qr/discover?additional_info=%7B%0A%22title%22%3A%20%22%22%2C%0A%22subtitle%22%3A%20%22%C2%A1Pag%C3%A1%20con%20c%C3%B3digo%20QR%20en%20tus%20locales%20favoritos!%22%2C%0A%22message%22%3A%20%22Simplific%C3%A1%20tus%20d%C3%ADas%20pagando%20con%20tu%20celular.%20S%C3%B3lo%20ten%C3%A9s%20que%20escanear%20el%20QR%20y%20pagar%2C%20%C2%A1as%C3%AD%20de%20f%C3%A1cil!%20Adem%C3%A1s%2C%20disfrut%C3%A1s%20cientos%20de%20descuentos%20exclusivos.%22%2C%0A%22icon_base_url%22%3A%20%22https%3A%2F%2Fhttp2.mlstatic.com%2Fresources%2Fmpmobile%2Finstore%2Fftu%2Fwallet%2Fftu_qr_payers-%22%2C%0A%22icon_type%22%3A%20%22png%22%2C%0A%22actions%22%3A%20%5B%0A%7B%0A%22id%22%3A%20%22primary%22%2C%0A%22label%22%3A%20%22Ver%20descuentos%20con%20QR%22%2C%0A%22link%22%3A%20%22mercadopago%3A%2F%2Fdiscount_center_payers%2Flist%22%2C%0A%22type%22%3A%20%22button%22%2C%0A%22tracking_info%22%3A%20%7B%0A%22well_known_entries%22%3A%20%7B%0A%22action_track_id%22%3A%20%22discovery%22%0A%7D%2C%0A%22unknown_entries%22%3A%20%7B%7D%0A%7D%0A%7D%0A%5D%2C%0A%22tracking_info%22%3A%20%7B%0A%22well_known_entries%22%3A%20%7B%0A%22campaign%22%3A%20%22journey_payers_qr%22%0A%7D%2C%0A%22unknown_entries%22%3A%20%7B%0A%22source%22%3A%20%22merch%22%2C%0A%22brand%22%3A%20%22qrv%22%0A%7D%0A%7D%0A%7D\u0026from=instore_never_qr_payers","target":"internal_link"}},"background_color":"#2e59af","content_id":"instore_never_qr_payers","footer":"","front_image":"merch_engine_qr_payers","header":"CÓDIGO QR","text_color":"#ffffff","title":"PAGÁ SIN\nSACAR LA\nBILLETERA","title_border_sprite":"merchengine_home_section_cross_selling_border_sprite_light_blue"},"created_at":1595390294826277400,"end_date":"2099-12-31T23:59:00.000-03:00","event_data":{"audience":"never_qr_payer","bu":"4","bu_line":"10","component_id":"cross_selling_home_mp_7","content_id":"instore_never_qr_payers","flow":"5","logic":"4912_ME_user_journey","position":7},"id":"instore_never_qr_payers","priority":1,"realestate_id":"cross_selling_home_mp","start_date":"2020-02-02T00:00:01.000-03:00"}]},"start_date":"2019-04-20T12:00:00-03:00","end_date":"2999-04-20T12:00:00-03:00"},{"ordinal":7,"id":"benefits","type":"VERTICAL_LIST","partial":false,"content":{"actions":{},"header":{"title":""},"items":[{"content":{"actions":{"content_link":{"action_id":"action_point","event_data":{},"link":"mercadopago://webview?url=https://www.mercadopago.com.ar/mp/invita-y-gana/webview\u0026from=mla_mgm_seller_all_mp","target":"internal_link"}},"content_id":"mla_mgm_seller_all_mp","icon":"merchengine_mgm-point_icon_mp_mla","title":"Recomendá Point y ganá $ 500"},"created_at":1593483551963122700,"end_date":"2099-01-01T23:11:10.000-03:00","event_data":{"audience":"all","bu":"4","bu_line":"10","component_id":"discount_benefits_mp_0","content_id":"mla_mgm_seller_all_mp","flow":"-1","logic":"user_journey","position":0},"exposure":100,"id":"mla_mgm_seller_all_mp","priority":9,"realestate_id":"discount_benefits_mp","start_date":"2019-01-01T12:00:00.000-03:00"},{"content":{"actions":{"content_link":{"action_id":"action_descuento","event_data":{},"link":"mercadopago://coupon/input?title=C%C3%B3digo%20de%20descuento\u0026input_title=Ingres%C3%A1%20tu%20c%C3%B3digo%20para%20obtener%20un%20beneficio\u0026from=mla_discount_benefits_coupon_payer_mp","target":"internal_link"}},"content_id":"mla_discount_benefits_coupon_payer_mp","icon":"merchengine_coupon_icon_mp","title":"Ingresá tu cupón"},"created_at":1593483764304622800,"end_date":"9999-05-28T12:11:01.000-03:00","event_data":{"audience":"mgm_single_player","bu":"4","bu_line":"10","component_id":"discount_benefits_mp_1","content_id":"mla_discount_benefits_coupon_payer_mp","flow":"-1","logic":"user_journey","position":1},"id":"mla_discount_benefits_coupon_payer_mp","priority":8,"realestate_id":"discount_benefits_mp","start_date":"2019-01-01T23:11:10.000-03:00"},{"content":{"actions":{"content_link":{"action_id":"action_payers","event_data":{},"link":"mercadopago://mgm/share?program_id=1\u0026from=mla_mgm_payers_all_mp","target":"internal_link"}},"content_id":"mla_mgm_payers_all_mp","icon":"mgm_row_benefits_home","title":"Recomendá la app y ganá $ 100"},"created_at":1610371352480599600,"end_date":"2025-04-01T03:00:00.000Z","event_data":{"audience":"all","bu":"4","bu_line":"10","component_id":"discount_benefits_mp_2","content_id":"mla_mgm_payers_all_mp","flow":"20","logic":"user_journey","position":2},"exposure":100,"id":"mla_mgm_payers_all_mp","priority":8,"realestate_id":"discount_benefits_mp","start_date":"2021-01-11T03:00:00.000Z"}]},"start_date":"2019-04-20T12:00:00-03:00","end_date":"2999-04-20T12:00:00-03:00"},{"ordinal":8,"id":"subscription","type":"SUBSCRIPTION","partial":false,"content":{"content_cards":{"cards":[{"image":"https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/vdp/hb-oimg-widget-multipartner@2x.jpg?v=1","link":"mercadopago://loyalty/webview?url=https%3A%2F%2Fwww.mercadopago.com.ar%2Fsuscripciones%2Fhbo%23origin%3Dmp_home\u0026title=HBO%20GO\u0026use_web_title=false\u0026mp_back=arrow\u0026loading_mode=none\u0026authenticate=true","logo":{"image":"https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/vdp/vdp-logo-hbo-email@2x.png?v=1","position":"left","size":48},"subtitle":{"color":"#ffffff","label":"HBO GO"},"title":{"color":"#ffffff","label":"Hasta 45% OFF"}}],"height":168,"pager_animation":true,"shadow":true,"width":248},"elements":[],"event_data":{"level":1,"partner":"multi-partner"},"header":{"has_divider":true,"title":{"color":"#333333","label":"Beneficios en suscripciones"}},"track":{"origin":"mp_home","partner_name":"multi-partner"}}},{"ordinal":9,"id":"activities","type":"ACTIVITIES","partial":false,"content":{"event_data":{"quantity":1,"is_ftu":false,"has_footer":true},"activities_container":{"header":{"title":"Tu última actividad"},"shown_qty":1,"results":[{"id":"cashback-84b6ade2ff94751e02714f0e7a60beab5902b508","amount":{"currency_id":"ARS","symbol":"$","symbol_text":"Peso argentino","fraction":"10.000","decimal_separator":",","cents":"","cents_text":"","price_color":""},"title":"Recibiste compensación","type":"compensation","date":"Ayer","iconClass":"ic_compensacion_cashback","actions":{"other":[]},"hasNotes":false,"dateGroup":"previous","link":"mercadopago://webview/?url=https%3A%2F%2Fwww.mercadopago.com.ar%2Factivities%2Fwebview-detail%2Fcashback-84b6ade2ff94751e02714f0e7a60beab5902b508\u0026authentication_mode=required\u0026authenticate=true\u0026loading_mode=none\u0026use_web_title=false\u0026title=Detalle%20de%20operaci%C3%B3n\u0026support_operators=true\u0026supported_scopes=mp_listings,activities,show_all_activities,collaborator_activities,stores_activities"}],"real_time_activities":{"should_be_kept":true,"ttl_in_seconds":86400}},"refresh_after_seconds":45}},{"ordinal":10,"id":"loyalty","type":"LOYALTY","partial":false,"content":{"header":{"level":1,"percentage":0.1,"title":"Beneficios","subtitle":"Nivel 1 - Mercado Puntos","primary_color":"#009EE3","text_color":"#FFFFFF","secondary_color":"#99D8F3"},"benefits":[{"icon":"https://http2.mlstatic.com/resources/frontend/statics/loyal/ic-cupones-app-v3-2x.png","description":"Descuentos pagando con QR en tus locales favoritos","primary_color":"#009EE3"},{"icon":"https://http2.mlstatic.com/resources/frontend/statics/loyal/ic-envios-app-v3-2x.png","description":"Envíos gratis en productos desde $ 3.500","primary_color":"#009EE3"},{"icon":"https://http2.mlstatic.com/resources/frontend/statics/loyal/ic-suscripciones-app-2x.png","description":"Beneficios en suscripciones","primary_color":"#009EE3"},{"icon":"https://http2.mlstatic.com/resources/frontend/statics/loyal/ic-devoluciones-app-v3-2x.png","description":"Devoluciones gratis","primary_color":"#009EE3"}],"action":{"label":"Ir a Mercado Puntos","target":"mercadopago://loyalty/webview?url=https%3A%2F%2Fwww.mercadopago.com.ar%2Fmercado-puntos%23origin%3Dwidget_home\u0026title=Mercado%20Puntos\u0026use_web_title=false\u0026mp_back=menu\u0026loading_mode=none\u0026authenticate=true","accessibility_text":"Acceder a Mercado Puntos"},"event_data":{"level":1,"percentage":0.1}}},{"ordinal":11,"id":"repentance_button","type":"VERTICAL_LIST","partial":false,"content":{"header":{"title":""},"items":[{"id":"repentance_hub","content":{"title":"¿Te arrepentiste? Cancelá un producto","icon":"wallet_home_repentance_button","actions":{"content_link":{"link":"mercadopago://webview?url=https://mercadopago.com.ar/home/regret","target":"internal_link","action_id":"default"}}},"start_date":"2019-01-01T00:00:00Z","end_date":"2099-12-31T23:59:59Z"}]}},{"ordinal":12,"id":"bcra_regulation","type":"PARAGRAPH","partial":false,"content":{"labels":[{"text":"Mercado Pago ofrece servicios de pago y no está autorizado por el Banco Central a operar como entidad financiera. Los fondos acreditados en cuentas de pago no constituyen depósitos en una entidad financiera ni están garantizados conforme legislación aplicable a depósitos en entidades financieras.","size":12,"color":"#828282","alignment":"justified"}],"event_data":{}}}],"retry":{"strategy":"simple","configuration":{"after_seconds":0,"attempts":4}},"tracking_info":{"events":{"print":{"event_data":{},"stream":"component_prints"},"pull":{"event_data":{}},"show":{"event_data":{}}},"event_data":{"metadata_user":{"type":"newbie"}}}}
+{
+	"header": {
+		"title": "Olá Test",
+		"loyalty": {
+			"subtitle": "Nível 1 - Mercado Pontos",
+			"link": "mercadopago://loyalty/webview?url=https%3A%2F%2Fwww.mercadopago.com.br%2Fmercado-pontos%23origin%3Dwidget_header\u0026title=Mercado%20Pontos\u0026use_web_title=false\u0026mp_back=menu\u0026loading_mode=none\u0026authenticate=true",
+			"level": 1
+		},
+		"accessibility_text": "Olá Test, Nível 1 Mercado Pontos",
+		"event_data": {
+			"loyalty": {
+				"level": 1
+			},
+			"metadata_user": {
+				"type": "newbie"
+			}
+		}
+	},
+	"items": [{
+		"ordinal": 1,
+		"id": "banking",
+		"type": "BANKING",
+		"partial": false,
+		"content": {
+			"items": [{
+				"id": "balance",
+				"type": "BALANCE",
+				"content": {
+					"link": "mercadopago://my-money",
+					"amount": {
+						"formatted_amount": "0",
+						"formatted_cents": "",
+						"decimal_separator": "",
+						"currency_symbol": "R$"
+					},
+					"accessibility_text": "0 reais com 00 centavos"
+				}
+			}, {
+				"id": "separator",
+				"type": "SEPARATOR",
+				"content": {}
+			}, {
+				"id": "assets",
+				"type": "INFO",
+				"content": {
+					"link": "mercadopago://asset-management/onboarding/?return_rate=5,2",
+					"icon": "wallet_home_banking_assets",
+					"text": "Ganhe mais do que com a poupança",
+					"pill": {
+						"text": "100% CDI",
+						"text_color": "#ffffff",
+						"background_color": "#33ffffff"
+					}
+				}
+			}, {
+				"id": "separator",
+				"type": "SEPARATOR",
+				"content": {}
+			}, {
+				"id": "credits",
+				"type": "INFO",
+				"content": {
+					"link": "mercadopago://webview/?url=https%3A%2F%2Fwww.mercadopago.com.br%2Fcredits%2Fhub%3Fsk%3DofnZVSnJ%26back_style%3Dmenu%26back_action%3Dmenu",
+					"icon": "wallet_home_credits_icon",
+					"text": "Pague parcelado com Mercado Crédito"
+				}
+			}, {
+				"id": "separator",
+				"type": "SEPARATOR",
+				"content": {}
+			}, {
+				"id": "cards",
+				"type": "INFO",
+				"content": {
+					"link": "mercadopago://cards-list/list",
+					"icon": "wallet_home_banking_cards",
+					"text": "Adicione seus cartões",
+					"accessibility_text": "Adicionar cartão"
+				}
+			}],
+			"footer": {
+				"is_collapsed": false,
+				"force_collapsing_state": false
+			},
+			"refresh_after_seconds": 45,
+			"event_data": {
+				"assets": {},
+				"balance": {
+					"balance_histogram": 0,
+					"pending_balance": false
+				},
+				"cards": {
+					"prepaid": false,
+					"quantity": 0
+				},
+				"credits": {}
+			}
+		}
+	}, {
+		"ordinal": 2,
+		"id": "main_actions",
+		"type": "MAIN_ACTIONS",
+		"partial": false,
+		"content": {
+			"event_data": {
+				"items": [{
+					"enabled": true,
+					"has_promotion": false,
+					"id": "pay_qr",
+					"ordinal": 1
+				}, {
+					"enabled": true,
+					"has_promotion": false,
+					"id": "money_in",
+					"ordinal": 2
+				}, {
+					"enabled": true,
+					"has_promotion": false,
+					"id": "money_out",
+					"ordinal": 3
+				}, {
+					"enabled": true,
+					"has_promotion": false,
+					"id": "money_cash_out",
+					"ordinal": 4
+				}],
+				"quantity": 4
+			},
+			"experiments": {
+				"wallet/home_dummy": "3872"
+			},
+			"main_actions": [{
+				"id": "pay_qr",
+				"image_style": {
+					"background_color": "#009EE3",
+					"background_color_pressed": "#007EB5",
+					"icon": "wallet_home_scan_qr"
+				},
+				"link": "mercadopago://instore/scan_qr?from=home_mp",
+				"title": "Código\nQR"
+			}, {
+				"id": "money_in",
+				"image_style": {
+					"background_color": "#009EE3",
+					"background_color_pressed": "#007EB5",
+					"icon": "wallet_home_money_in"
+				},
+				"link": "mercadopago://moneyin/select_method?from=home_mp",
+				"title": "Adicionar\ndinheiro"
+			}, {
+				"id": "money_out",
+				"image_style": {
+					"background_color": "#009EE3",
+					"background_color_pressed": "#007EB5",
+					"icon": "wallet_home_withdrawal"
+				},
+				"link": "mercadopago://withdraw/?from=home_mp",
+				"title": "Transferir\ndinheiro"
+			}, {
+				"id": "money_cash_out",
+				"image_style": {
+					"background_color": "#009EE3",
+					"background_color_pressed": "#007EB5",
+					"icon": "wallet_home_money_cash_out"
+				},
+				"link": "mercadopago://cashout/hub?from=home_mp",
+				"title": "Sacar\ndinheiro"
+			}]
+		}
+	}, {
+		"ordinal": 3,
+		"id": "prepaid_banner",
+		"type": "BANNER",
+		"partial": false,
+		"content": {
+			"actions": {
+				"content_link": {
+					"action_id": "default",
+					"event_data": {},
+					"link": "mercadopago://cards-request/hybrid/init-point?from=home_banner_virtual_awareness_unknown",
+					"target": "internal_link"
+				}
+			},
+			"close_button": true,
+			"content_id": "virtual_awareness_unknown",
+			"event_data": {
+				"audience": "all_unknown_virtual_debit_available",
+				"bu": "4",
+				"bu_line": "3",
+				"component_id": "dismissible_row",
+				"content_id": "virtual_awareness_unknown",
+				"flow": "16",
+				"logic": "user_journey",
+				"position": 0
+			},
+			"icon": "merchengine_dissmisible_prepaid_virtual_request",
+			"text": "Compre online com seu Cartão Mercado Pago usando o dinheiro de sua conta."
+		},
+		"start_date": "2020-10-26T03:00:00Z",
+		"end_date": "2025-01-02T03:00:00Z"
+	}, {
+		"ordinal": 4,
+		"id": "shortcuts",
+		"type": "SHORTCUTS",
+		"partial": false,
+		"content": {
+			"disable_ripple": false,
+			"event_data": {
+				"favorite_ids": ["pay_cellphone_recharge", "pay_services", "charge_point", "charge_link", "charge_qr", "friends_send"],
+				"has_view_more": true,
+				"shortcut_ids": ["pay_transport"]
+			},
+			"favorites": [{
+				"content_id": "general_mlb | recarga_label_bonus_dic_mlb_all",
+				"event_data": {
+					"component_id": "pay_cellphone_recharge",
+					"content_id": "general_mlb | recarga_label_bonus_dic_mlb_all",
+					"enabled": true,
+					"group_id": "pay",
+					"group_position": 0,
+					"has_aware": false,
+					"has_label": true,
+					"is_favorite": true,
+					"position": 0,
+					"user_profile": "newbie"
+				},
+				"id": "pay_cellphone_recharge",
+				"image_style": {
+					"background_color": "#FFFFFF",
+					"icon": "wallet_home_shortcuts_pay_cellphone_recharge",
+					"icon_color": "#2BB5F1"
+				},
+				"label": {
+					"background_color": "#00A650",
+					"border_color": "#00A650",
+					"text": "BONUS",
+					"text_color": "#FFFFFF"
+				},
+				"link": "mercadopago://cellphone-recharge?from=home_mp",
+				"title": "Recarregar\ncelular"
+			}, {
+				"content_id": "general_mlb",
+				"event_data": {
+					"component_id": "pay_services",
+					"content_id": "general_mlb",
+					"enabled": true,
+					"group_id": "pay",
+					"group_position": 0,
+					"has_aware": false,
+					"has_label": false,
+					"is_favorite": true,
+					"position": 1,
+					"user_profile": "newbie"
+				},
+				"id": "pay_services",
+				"image_style": {
+					"background_color": "#FFFFFF",
+					"icon": "wallet_home_shortcuts_pay_services_mlb",
+					"icon_color": "#2BB5F1"
+				},
+				"link": "mercadopago://bill-payments/?from=home_mp\u0026version=2",
+				"title": "Boletos e\ntributos"
+			}, {
+				"content_id": "general_mlb",
+				"event_data": {
+					"component_id": "charge_point",
+					"content_id": "general_mlb",
+					"enabled": true,
+					"group_id": "charge",
+					"group_position": 1,
+					"has_aware": false,
+					"has_label": false,
+					"is_favorite": true,
+					"position": 2,
+					"user_profile": "newbie"
+				},
+				"id": "charge_point",
+				"image_style": {
+					"background_color": "#FFFFFF",
+					"icon": "wallet_home_shortcuts_charge_point_mlm_mlb_v2",
+					"icon_color": "#475EE8"
+				},
+				"link": "mercadopago://start_new_payment?from=home_mp\u0026method=point",
+				"title": "Cobrar\ncom Point"
+			}, {
+				"content_id": "general_mlb",
+				"event_data": {
+					"component_id": "charge_link",
+					"content_id": "general_mlb",
+					"enabled": true,
+					"group_id": "charge",
+					"group_position": 1,
+					"has_aware": false,
+					"has_label": false,
+					"is_favorite": true,
+					"position": 3,
+					"user_profile": "newbie"
+				},
+				"id": "charge_link",
+				"image_style": {
+					"background_color": "#FFFFFF",
+					"icon": "wallet_home_shortcuts_charge_link",
+					"icon_color": "#475EE8"
+				},
+				"link": "mercadopago://start_new_payment?from=home_mp\u0026method=share_social",
+				"title": "Cobrar\ncom link"
+			}, {
+				"content_id": "general_mlb",
+				"event_data": {
+					"component_id": "charge_qr",
+					"content_id": "general_mlb",
+					"enabled": true,
+					"group_id": "charge",
+					"group_position": 1,
+					"has_aware": false,
+					"has_label": false,
+					"is_favorite": true,
+					"position": 4,
+					"user_profile": "newbie"
+				},
+				"id": "charge_qr",
+				"image_style": {
+					"background_color": "#FFFFFF",
+					"icon": "wallet_home_shortcuts_charge_qr",
+					"icon_color": "#475EE8"
+				},
+				"link": "mercadopago://start_new_payment?from=home_mp\u0026method=qr",
+				"title": "Cobrar com\ncódigo QR"
+			}, {
+				"content_id": "general_mlb",
+				"event_data": {
+					"component_id": "friends_send",
+					"content_id": "general_mlb",
+					"enabled": true,
+					"group_id": "friends",
+					"group_position": 2,
+					"has_aware": false,
+					"has_label": false,
+					"is_favorite": true,
+					"position": 5,
+					"user_profile": "newbie"
+				},
+				"id": "friends_send",
+				"image_style": {
+					"background_color": "#FFFFFF",
+					"icon": "wallet_home_shortcuts_friends_send",
+					"icon_color": "#F75CDD"
+				},
+				"link": "mercadopago://send_money/?from=home_mp",
+				"title": "Enviar\ndinheiro"
+			}],
+			"sheet": {
+				"collections": [{
+					"id": "pay",
+					"shortcuts": [{
+						"content_id": "general",
+						"event_data": {
+							"component_id": "pay_qr",
+							"content_id": "general",
+							"enabled": true,
+							"group_id": "pay",
+							"group_position": 0,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 0,
+							"user_profile": "newbie"
+						},
+						"id": "pay_qr",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_pay_qr",
+							"icon_color": "#2BB5F1"
+						},
+						"link": "mercadopago://instore/scan_qr?from=home_mp",
+						"title": "Código\nQR"
+					}, {
+						"content_id": "general_mlb | recarga_label_bonus_dic_mlb_all",
+						"event_data": {
+							"component_id": "pay_cellphone_recharge",
+							"content_id": "general_mlb | recarga_label_bonus_dic_mlb_all",
+							"enabled": true,
+							"group_id": "pay",
+							"group_position": 0,
+							"has_aware": false,
+							"has_label": true,
+							"is_favorite": false,
+							"position": 1,
+							"user_profile": "newbie"
+						},
+						"id": "pay_cellphone_recharge",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_pay_cellphone_recharge",
+							"icon_color": "#2BB5F1"
+						},
+						"label": {
+							"background_color": "#00A650",
+							"border_color": "#00A650",
+							"text": "BONUS",
+							"text_color": "#FFFFFF"
+						},
+						"link": "mercadopago://cellphone-recharge?from=home_mp",
+						"title": "Recarregar\ncelular"
+					}, {
+						"content_id": "general_mlb",
+						"event_data": {
+							"component_id": "pay_services",
+							"content_id": "general_mlb",
+							"enabled": true,
+							"group_id": "pay",
+							"group_position": 0,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 2,
+							"user_profile": "newbie"
+						},
+						"id": "pay_services",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_pay_services_mlb",
+							"icon_color": "#2BB5F1"
+						},
+						"link": "mercadopago://bill-payments/?from=home_mp\u0026version=2",
+						"title": "Boletos e\ntributos"
+					}, {
+						"content_id": "general_mlb",
+						"event_data": {
+							"component_id": "pay_transport",
+							"content_id": "general_mlb",
+							"enabled": true,
+							"group_id": "pay",
+							"group_position": 0,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 3,
+							"user_profile": "newbie"
+						},
+						"id": "pay_transport",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_pay_transport",
+							"icon_color": "#2BB5F1"
+						},
+						"link": "mercadopago://transport?from=home_mp",
+						"title": "Cartão de\ntransporte"
+					}, {
+						"content_id": "general_mlb",
+						"event_data": {
+							"component_id": "pay_online_credit",
+							"content_id": "general_mlb",
+							"enabled": true,
+							"group_id": "pay",
+							"group_position": 0,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 4,
+							"user_profile": "newbie"
+						},
+						"id": "pay_online_credit",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_pay_online_credit",
+							"icon_color": "#2BB5F1"
+						},
+						"link": "mercadopago://digital-goods?from=home_mp",
+						"title": "Serviços\ndigitais"
+					}, {
+						"content_id": "general",
+						"event_data": {
+							"component_id": "pay_shell_box",
+							"content_id": "general",
+							"enabled": true,
+							"group_id": "pay",
+							"group_position": 0,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 5,
+							"user_profile": "newbie"
+						},
+						"id": "pay_shell_box",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_pay_shell_box",
+							"icon_color": "#2BB5F1"
+						},
+						"link": "mercadopago://instore/gas_station/shell?from=home_mp",
+						"title": "Pagar com\nShell Box"
+					}, {
+						"content_id": "general_mlb",
+						"event_data": {
+							"component_id": "pay_directv",
+							"content_id": "general_mlb",
+							"enabled": true,
+							"group_id": "pay",
+							"group_position": 0,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 6,
+							"user_profile": "newbie"
+						},
+						"id": "pay_directv",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_pay_directv",
+							"icon_color": "#2BB5F1"
+						},
+						"link": "mercadopago://bill-payments/antenna-recharge?from=home_mp",
+						"title": "Recarregar\nTV pré-paga"
+					}, {
+						"content_id": "default_mlb",
+						"event_data": {
+							"component_id": "pay_donate",
+							"content_id": "default_mlb",
+							"enabled": true,
+							"group_id": "pay",
+							"group_position": 0,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 7,
+							"user_profile": "newbie"
+						},
+						"id": "pay_donate",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_pay_donate",
+							"icon_color": "#2BB5F1"
+						},
+						"link": "mercadopago://webview?from=home_mp\u0026title=Doar\u0026url=https%3A%2F%2Fwww.mercadopago.com.br%2Fc%2Fhub%2Fong\u0026use_web_title=false",
+						"title": "Doar"
+					}],
+					"title": "Pagar"
+				}, {
+					"id": "charge",
+					"shortcuts": [{
+						"content_id": "general_mlb",
+						"event_data": {
+							"component_id": "charge_point",
+							"content_id": "general_mlb",
+							"enabled": true,
+							"group_id": "charge",
+							"group_position": 1,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 0,
+							"user_profile": "newbie"
+						},
+						"id": "charge_point",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_charge_point_mlm_mlb_v2",
+							"icon_color": "#475EE8"
+						},
+						"link": "mercadopago://start_new_payment?from=home_mp\u0026method=point",
+						"title": "Cobrar\ncom Point"
+					}, {
+						"content_id": "general_mlb",
+						"event_data": {
+							"component_id": "charge_link",
+							"content_id": "general_mlb",
+							"enabled": true,
+							"group_id": "charge",
+							"group_position": 1,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 1,
+							"user_profile": "newbie"
+						},
+						"id": "charge_link",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_charge_link",
+							"icon_color": "#475EE8"
+						},
+						"link": "mercadopago://start_new_payment?from=home_mp\u0026method=share_social",
+						"title": "Cobrar\ncom link"
+					}, {
+						"content_id": "general_mlb",
+						"event_data": {
+							"component_id": "charge_qr",
+							"content_id": "general_mlb",
+							"enabled": true,
+							"group_id": "charge",
+							"group_position": 1,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 2,
+							"user_profile": "newbie"
+						},
+						"id": "charge_qr",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_charge_qr",
+							"icon_color": "#475EE8"
+						},
+						"link": "mercadopago://start_new_payment?from=home_mp\u0026method=qr",
+						"title": "Cobrar com\ncódigo QR"
+					}, {
+						"content_id": "general",
+						"event_data": {
+							"component_id": "charge_caixa",
+							"content_id": "general",
+							"enabled": true,
+							"group_id": "charge",
+							"group_position": 1,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 3,
+							"user_profile": "newbie"
+						},
+						"id": "charge_caixa",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_charge_caixa",
+							"icon_color": "#475EE8"
+						},
+						"link": "mercadopago://start_new_payment?from=home_mp\u0026method=caixa",
+						"title": "Cobrar com\ndébito Caixa"
+					}],
+					"title": "Cobrar"
+				}, {
+					"id": "friends",
+					"shortcuts": [{
+						"content_id": "general_mlb",
+						"event_data": {
+							"component_id": "friends_send",
+							"content_id": "general_mlb",
+							"enabled": true,
+							"group_id": "friends",
+							"group_position": 2,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 0,
+							"user_profile": "newbie"
+						},
+						"id": "friends_send",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_friends_send",
+							"icon_color": "#F75CDD"
+						},
+						"link": "mercadopago://send_money/?from=home_mp",
+						"title": "Enviar\ndinheiro"
+					}, {
+						"content_id": "general_mlb",
+						"event_data": {
+							"component_id": "friends_request",
+							"content_id": "general_mlb",
+							"enabled": true,
+							"group_id": "friends",
+							"group_position": 2,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 1,
+							"user_profile": "newbie"
+						},
+						"id": "friends_request",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_friends_request_v2",
+							"icon_color": "#F75CDD"
+						},
+						"link": "mercadopago://mplayer/money_request?from=home_mp",
+						"title": "Solicitar\ndinheiro"
+					}, {
+						"content_id": "general",
+						"event_data": {
+							"component_id": "friends_split",
+							"content_id": "general",
+							"enabled": true,
+							"group_id": "friends",
+							"group_position": 2,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 2,
+							"user_profile": "newbie"
+						},
+						"id": "friends_split",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_friends_split",
+							"icon_color": "#F75CDD"
+						},
+						"link": "mercadopago://mplayer/money_split?from=home_mp",
+						"title": "Dividir\ngastos"
+					}, {
+						"content_id": "general",
+						"event_data": {
+							"component_id": "friends_hub",
+							"content_id": "general",
+							"enabled": true,
+							"group_id": "friends",
+							"group_position": 2,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 3,
+							"user_profile": "newbie"
+						},
+						"id": "friends_hub",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_friends_hub_v2",
+							"icon_color": "#F75CDD"
+						},
+						"link": "mercadopago://mplayer/events?from=home_mp",
+						"title": "Amigos"
+					}],
+					"title": "Compartilhar gastos com amigos"
+				}, {
+					"id": "marketplace",
+					"shortcuts": [{
+						"content_id": "marketplace_mlb",
+						"event_data": {
+							"component_id": "benefits_discounts",
+							"content_id": "marketplace_mlb",
+							"enabled": true,
+							"group_id": "marketplace",
+							"group_position": 3,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 0,
+							"user_profile": "newbie"
+						},
+						"id": "benefits_discounts",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_discover_stores",
+							"icon_color": "#FF7079"
+						},
+						"link": "mercadopago://discount_center_payers/list?from=home_mp#from=/home_wallet/shortcuts",
+						"title": "Ver lojas"
+					}, {
+						"content_id": "default_mlb",
+						"event_data": {
+							"component_id": "marketplace_discounts",
+							"content_id": "default_mlb",
+							"enabled": true,
+							"group_id": "marketplace",
+							"group_position": 3,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 1,
+							"user_profile": "newbie"
+						},
+						"id": "marketplace_discounts",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_benefits_discounts",
+							"icon_color": "#FF7079"
+						},
+						"link": "mercadopago://discount_center_payers/list?cluster_id=all_stores_rank\u0026dynamic_discount=true\u0026from=home_mp\u0026skeleton_id=list#from=/home_wallet/shortcuts",
+						"title": "Descontos"
+					}],
+					"title": "Onde comprar"
+				}, {
+					"id": "benefits_v2",
+					"shortcuts": [{
+						"content_id": "general_mlb",
+						"event_data": {
+							"component_id": "benefits_coupon",
+							"content_id": "general_mlb",
+							"enabled": true,
+							"group_id": "benefits_v2",
+							"group_position": 4,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 0,
+							"user_profile": "newbie"
+						},
+						"id": "benefits_coupon",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_benefits_coupon",
+							"icon_color": "#9B55EA"
+						},
+						"link": "mercadopago://coupon/input?from=home_mp",
+						"title": "Inserir\ncupom"
+					}, {
+						"content_id": "general_mlb",
+						"event_data": {
+							"component_id": "benefits_loyalty",
+							"content_id": "general_mlb",
+							"enabled": true,
+							"group_id": "benefits_v2",
+							"group_position": 4,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 1,
+							"user_profile": "newbie"
+						},
+						"id": "benefits_loyalty",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_benefits_loyalty",
+							"icon_color": "#9B55EA"
+						},
+						"link": "mercadopago://loyalty/webview?authenticate=true\u0026back_action=close\u0026back_style=menu\u0026from=home_mp\u0026mp_back=menu\u0026swipe_gesture=true\u0026title=Mercado%20Pontos\u0026url=https%3A%2F%2Fwww.mercadopago.com.br%2Fmercado-pontos\u0026use_web_title=false",
+						"title": "Mercado\nPontos"
+					}],
+					"title": "Seus benefícios"
+				}, {
+					"id": "mgm",
+					"shortcuts": [{
+						"content_id": "general_mlb",
+						"event_data": {
+							"component_id": "mgm_point",
+							"content_id": "general_mlb",
+							"enabled": true,
+							"group_id": "mgm",
+							"group_position": 5,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 0,
+							"user_profile": "newbie"
+						},
+						"id": "mgm_point",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_mgm_point_v2",
+							"icon_color": "#F2AB39"
+						},
+						"link": "mercadopago://mgm_point?from=home_mp",
+						"title": "Recomendar\na Point"
+					}],
+					"title": "Convide e ganhe"
+				}, {
+					"id": "business",
+					"shortcuts": [{
+						"content_id": "general_mlb",
+						"event_data": {
+							"component_id": "business_dashboard",
+							"content_id": "general_mlb",
+							"enabled": true,
+							"group_id": "business",
+							"group_position": 6,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 0,
+							"user_profile": "newbie"
+						},
+						"id": "business_dashboard",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_business_dashboard_v2",
+							"icon_color": "#578474"
+						},
+						"link": "mercadopago://dashboard?from=home_mp",
+						"title": "Métricas do\nseu negócio"
+					}, {
+						"content_id": "general_mlb",
+						"event_data": {
+							"component_id": "business_fees_installments",
+							"content_id": "general_mlb",
+							"enabled": true,
+							"group_id": "business",
+							"group_position": 6,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 1,
+							"user_profile": "newbie"
+						},
+						"id": "business_fees_installments",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_business_fees_installments_v2",
+							"icon_color": "#578474"
+						},
+						"link": "mercadopago://select_rates?from=home_mp",
+						"title": "Tarifas e\nprazos"
+					}, {
+						"content_id": "general_mlb",
+						"event_data": {
+							"component_id": "business_costs_simulator",
+							"content_id": "general_mlb",
+							"enabled": true,
+							"group_id": "business",
+							"group_position": 6,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 2,
+							"user_profile": "newbie"
+						},
+						"id": "business_costs_simulator",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_business_costs_simulator_v3",
+							"icon_color": "#578474"
+						},
+						"link": "mercadopago://cost_calculator_chooser?from=home_mp",
+						"title": "Simulador\nde custos"
+					}, {
+						"content_id": "general_mlb",
+						"event_data": {
+							"component_id": "business_pos_management",
+							"content_id": "general_mlb",
+							"enabled": true,
+							"group_id": "business",
+							"group_position": 6,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 3,
+							"user_profile": "newbie"
+						},
+						"id": "business_pos_management",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_business_pos_management_v2",
+							"icon_color": "#578474"
+						},
+						"link": "mercadopago://cash_balance/opt_in?from=home_mp",
+						"title": "Gestão de\ncaixa"
+					}, {
+						"content_id": "general_mlb",
+						"event_data": {
+							"component_id": "business_stores_pos",
+							"content_id": "general_mlb",
+							"enabled": true,
+							"group_id": "business",
+							"group_position": 6,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 4,
+							"user_profile": "newbie"
+						},
+						"id": "business_stores_pos",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_business_stores_pos_v3",
+							"icon_color": "#578474"
+						},
+						"link": "mercadopago://stores_pos?from=home_mp",
+						"title": "Lojas e\ncaixas"
+					}, {
+						"content_id": "general",
+						"event_data": {
+							"component_id": "business_colaborators",
+							"content_id": "general",
+							"enabled": true,
+							"group_id": "business",
+							"group_position": 6,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 5,
+							"user_profile": "newbie"
+						},
+						"id": "business_colaborators",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_business_colaborators_v2",
+							"icon_color": "#578474"
+						},
+						"link": "mercadopago://collaborators?from=home_mp",
+						"title": "Colaboradores"
+					}, {
+						"content_id": "general_mlb",
+						"event_data": {
+							"component_id": "business_catalog",
+							"content_id": "general_mlb",
+							"enabled": true,
+							"group_id": "business",
+							"group_position": 6,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 6,
+							"user_profile": "newbie"
+						},
+						"id": "business_catalog",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_business_catalog_v2",
+							"icon_color": "#578474"
+						},
+						"link": "mercadopago://catalog?from=home_mp",
+						"title": "Catálogo de\nprodutos"
+					}, {
+						"content_id": "default_mlb",
+						"event_data": {
+							"component_id": "business_discounts_admin",
+							"content_id": "default_mlb",
+							"enabled": true,
+							"group_id": "business",
+							"group_position": 6,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 7,
+							"user_profile": "newbie"
+						},
+						"id": "business_discounts_admin",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_business_discounts_admin",
+							"icon_color": "#578474"
+						},
+						"link": "mercadopago://discount_sellers/history?from=home_mp",
+						"title": "Administrar\ndescontos"
+					}],
+					"title": "Seu negócio"
+				}, {
+					"id": "money",
+					"shortcuts": [{
+						"content_id": "general_mlb",
+						"event_data": {
+							"component_id": "money_in",
+							"content_id": "general_mlb",
+							"enabled": true,
+							"group_id": "money",
+							"group_position": 7,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 0,
+							"user_profile": "newbie"
+						},
+						"id": "money_in",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_money_in",
+							"icon_color": "#444444"
+						},
+						"link": "mercadopago://moneyin/select_method?from=home_mp",
+						"title": "Adicionar\ndinheiro"
+					}, {
+						"content_id": "general_mlb_transferir",
+						"event_data": {
+							"component_id": "money_out",
+							"content_id": "general_mlb_transferir",
+							"enabled": true,
+							"group_id": "money",
+							"group_position": 7,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 1,
+							"user_profile": "newbie"
+						},
+						"id": "money_out",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_money_out",
+							"icon_color": "#444444"
+						},
+						"link": "mercadopago://withdraw/?from=home_mp",
+						"title": "Transferir\ndinheiro"
+					}, {
+						"content_id": "default_hub_mlb",
+						"event_data": {
+							"component_id": "money_cash_out",
+							"content_id": "default_hub_mlb",
+							"enabled": true,
+							"group_id": "money",
+							"group_position": 7,
+							"has_aware": false,
+							"has_label": false,
+							"is_favorite": false,
+							"position": 2,
+							"user_profile": "newbie"
+						},
+						"id": "money_cash_out",
+						"image_style": {
+							"background_color": "#FFFFFF",
+							"icon": "wallet_home_shortcuts_money_cash_out_v2",
+							"icon_color": "#444444"
+						},
+						"link": "mercadopago://cashout/hub?from=home_mp",
+						"title": "Sacar\ndinheiro"
+					}],
+					"title": "Seu dinheiro"
+				}],
+				"event_data": {
+					"favorites_ids": null,
+					"group_ids": ["pay", "charge", "friends", "marketplace", "benefits_v2", "mgm", "business", "money"],
+					"shortcut_ids": ["pay_qr", "pay_cellphone_recharge", "pay_services", "pay_transport", "pay_online_credit", "pay_shell_box", "pay_directv", "pay_donate", "charge_point", "charge_link", "charge_qr", "charge_caixa", "friends_send", "friends_request", "friends_split", "friends_hub", "benefits_discounts", "marketplace_discounts", "benefits_coupon", "benefits_loyalty", "mgm_point", "business_dashboard", "business_fees_installments", "business_costs_simulator", "business_pos_management", "business_stores_pos", "business_colaborators", "business_catalog", "business_discounts_admin", "money_in", "money_out", "money_cash_out"]
+				},
+				"favorites": {
+					"action": {
+						"cancel": "Cancelar",
+						"edit": "Editar favoritos",
+						"save": "Salvar",
+						"success": "Pronto! Aproveite seus favoritos agora mesmo"
+					},
+					"disable_ftu": false,
+					"empty_collection_message": "São todos favoritos!",
+					"header": {
+						"edit": "Seus favoritos",
+						"ftu": "Seus favoritos",
+						"select": "Saiba mais"
+					},
+					"max": 6,
+					"message": {
+						"edit": "Você pode escolher até 6 atalhos e ordená-los como quiser.",
+						"ftu": "Selecione os atalhos que quiser, \ncustomize seu app!",
+						"max_reached": "Você tem 6 atalhos, exclua algum deles antes de adicionar outro."
+					}
+				},
+				"force_rehash": true,
+				"header": {
+					"title": "Saiba mais"
+				},
+				"tracking_info": {
+					"events": {
+						"print": {
+							"event_data": {},
+							"stream": "component_prints"
+						},
+						"pull": {
+							"event_data": {}
+						},
+						"show": {
+							"event_data": {}
+						}
+					}
+				}
+			},
+			"shortcuts": [{
+				"content_id": "general_mlb | business_shortcut",
+				"event_data": {
+					"component_id": "pay_transport",
+					"content_id": "general_mlb | business_shortcut",
+					"enabled": true,
+					"group_id": "pay",
+					"group_position": 0,
+					"has_aware": false,
+					"has_label": true,
+					"is_favorite": false,
+					"logic": "business",
+					"position": 6,
+					"user_profile": "newbie"
+				},
+				"id": "pay_transport",
+				"image_style": {
+					"background_color": "#FFFFFF",
+					"icon": "wallet_home_shortcuts_pay_transport",
+					"icon_color": "#2BB5F1"
+				},
+				"label": {
+					"background_color": "#009EE3",
+					"border_color": "#009EE3",
+					"text": "CONFIRA",
+					"text_color": "#FFFFFF"
+				},
+				"link": "mercadopago://transport?from=home_mp",
+				"title": "Cartão de\ntransporte"
+			}],
+			"view_more": {
+				"accessibility_text": "Mostrar mais acessos",
+				"content_id": "default",
+				"event_data": {
+					"component_id": "view_more",
+					"content_id": "default",
+					"enabled": true,
+					"has_aware": false,
+					"has_label": false,
+					"is_favorite": false,
+					"position": 7,
+					"user_profile": "newbie"
+				},
+				"id": "view_more",
+				"image_style": {
+					"background_color": "#FFFFFF",
+					"icon": "wallet_home_view_more",
+					"icon_color": "#595959"
+				},
+				"link": "mercadopago://shortcuts_sheet/?section_id=shortcuts",
+				"title": "Ver mais"
+			}
+		}
+	}, {
+		"ordinal": 5,
+		"id": "discount_center",
+		"type": "DISCOUNT_CENTER",
+		"partial": false,
+		"content": {
+			"event_data": {},
+			"experiments": {},
+			"footer": {
+				"accessibility_text": "Acceder a todos los descuentos",
+				"label": "Ver descontos e descobrir lojas",
+				"link": "mercadopago://discount_center_payers/list?from=home_mp#from=/home_wallet/discount_center"
+			},
+			"title": "Descontos com código QR",
+			"touchpoint": {
+				"additional_edge_insets": {
+					"bottom": 16,
+					"left": 32,
+					"right": 16,
+					"top": 16
+				},
+				"content": {
+					"items": [{
+						"background_color": "#ffffff",
+						"distance_icon": "discount_payers_icon_location",
+						"image": "https://mla-s2-p.mlstatic.com/952355-MLA43021457837_082020-O.jpg",
+						"link": "mercadopago://discount_center_payers/list?skeleton_id=list\u0026cluster_id=all_stores_rank\u0026dynamic_categories=supermarket\u0026dynamic_discount=true\u0026from=home_mp#from=/home_wallet/discount_center",
+						"main_label": "R$ 50",
+						"subtitle": "Ver mais",
+						"subtitle_format": {
+							"color": "#009EE3",
+							"size": 14,
+							"weight": "semibold"
+						},
+						"text_color": "#000000",
+						"title": "Supermercados",
+						"top_label": "Até",
+						"tracking": {
+							"tracking_id": "supermarket"
+						}
+					}, {
+						"background_color": "#ffffff",
+						"distance_icon": "discount_payers_icon_location",
+						"image": "https://mla-s2-p.mlstatic.com/809528-MLA43021457803_082020-O.jpg",
+						"link": "mercadopago://discount_center_payers/list?skeleton_id=list\u0026cluster_id=all_stores_rank\u0026dynamic_categories=gastronomy\u0026dynamic_discount=true\u0026from=home_mp#from=/home_wallet/discount_center",
+						"main_label": "R$ 10",
+						"subtitle": "Ver mais",
+						"subtitle_format": {
+							"color": "#009EE3",
+							"size": 14,
+							"weight": "semibold"
+						},
+						"text_color": "#000000",
+						"title": "Restaurantes",
+						"top_label": "Até",
+						"tracking": {
+							"tracking_id": "gastronomy"
+						}
+					}, {
+						"background_color": "#ffffff",
+						"distance_icon": "discount_payers_icon_location",
+						"image": "https://mla-s1-p.mlstatic.com/643677-MLA43021534656_082020-O.jpg",
+						"link": "mercadopago://discount_center_payers/list?skeleton_id=list\u0026cluster_id=all_stores_rank\u0026dynamic_categories=bars\u0026dynamic_discount=true\u0026from=home_mp#from=/home_wallet/discount_center",
+						"main_label": "R$ 120",
+						"subtitle": "Ver mais",
+						"subtitle_format": {
+							"color": "#009EE3",
+							"size": 14,
+							"weight": "semibold"
+						},
+						"text_color": "#000000",
+						"title": "Bares",
+						"top_label": "Até",
+						"tracking": {
+							"tracking_id": "bars"
+						}
+					}, {
+						"background_color": "#ffffff",
+						"distance_icon": "discount_payers_icon_location",
+						"image": "https://mla-s1-p.mlstatic.com/971671-MLA43021534702_082020-O.jpg",
+						"link": "mercadopago://discount_center_payers/list?skeleton_id=list\u0026cluster_id=all_stores_rank\u0026dynamic_categories=pharmacies\u0026dynamic_discount=true\u0026from=home_mp#from=/home_wallet/discount_center",
+						"main_label": "R$ 10",
+						"subtitle": "Ver mais",
+						"subtitle_format": {
+							"color": "#009EE3",
+							"size": 14,
+							"weight": "semibold"
+						},
+						"text_color": "#000000",
+						"title": "Farmácias",
+						"top_label": "Até",
+						"tracking": {
+							"tracking_id": "pharmacies"
+						}
+					}, {
+						"background_color": "#ffffff",
+						"distance_icon": "discount_payers_icon_location",
+						"image": "https://mla-s1-p.mlstatic.com/881532-MLA43021457863_082020-O.jpg",
+						"link": "mercadopago://discount_center_payers/list?skeleton_id=list\u0026cluster_id=all_stores_rank\u0026dynamic_categories=hair\u0026dynamic_discount=true\u0026from=home_mp#from=/home_wallet/discount_center",
+						"main_label": "R$ 50",
+						"subtitle": "Ver mais",
+						"subtitle_format": {
+							"color": "#009EE3",
+							"size": 14,
+							"weight": "semibold"
+						},
+						"text_color": "#000000",
+						"title": "Cabeleireiros",
+						"top_label": "Até",
+						"tracking": {
+							"tracking_id": "hair"
+						}
+					}, {
+						"background_color": "#ffffff",
+						"distance_icon": "discount_payers_icon_location",
+						"image": "https://mla-s2-p.mlstatic.com/885019-MLA43021457848_082020-O.jpg",
+						"link": "mercadopago://discount_center_payers/list?skeleton_id=list\u0026cluster_id=all_stores_rank\u0026dynamic_categories=pets\u0026dynamic_discount=true\u0026from=home_mp#from=/home_wallet/discount_center",
+						"main_label": "R$ 50",
+						"subtitle": "Ver mais",
+						"subtitle_format": {
+							"color": "#009EE3",
+							"size": 14,
+							"weight": "semibold"
+						},
+						"text_color": "#000000",
+						"title": "Pets",
+						"top_label": "Até",
+						"tracking": {
+							"tracking_id": "pets"
+						}
+					}]
+				},
+				"id": "mp_home",
+				"type": "CAROUSEL"
+			}
+		}
+	}, {
+		"ordinal": 6,
+		"id": "qr_map",
+		"type": "PROMOTION",
+		"partial": false,
+		"content": {
+			"background_image": "instore_home_sections_background",
+			"header_title": "Encontre lojas \nperto de onde estiver",
+			"items": [{
+				"background_color": "#ffffff",
+				"border_color": "#e5e5e5",
+				"icon": "instore_home_sections_mercados_v3"
+			}, {
+				"background_color": "#ffffff",
+				"border_color": "#e5e5e5",
+				"icon": "instore_home_sections_gastronomia_v3"
+			}, {
+				"background_color": "#ffffff",
+				"border_color": "#e5e5e5",
+				"icon": "instore_home_sections_combustible_v3"
+			}, {
+				"background_color": "#ffffff",
+				"border_color": "#e5e5e5",
+				"icon": "instore_home_sections_farmacias_v3"
+			}],
+			"link": "mercadopago://discount_center_payers/list?from=home_mp#from=/home_wallet/qr_map",
+			"type": "qr_map"
+		}
+	}, {
+		"ordinal": 7,
+		"id": "cross_selling",
+		"type": "CAROUSEL",
+		"partial": false,
+		"content": {
+			"actions": {},
+			"header": {
+				"title": "Descubra mais"
+			},
+			"items": [{
+				"access": {
+					"id": "",
+					"permission": "",
+					"role": null
+				},
+				"content": {
+					"actions": {
+						"content_link": {
+							"action_id": "action_multiproducto",
+							"event_data": {},
+							"link": "mercadopago://webview?url=https%3A%2F%2Fwww.mercadopago.com.br%2Fpoint%2Finvite%3Fcode%3DPOINT_XS%26utm_source%3Dapp%26utm_source%3Dapp%26utm_medium%3Dbanner%26utm_campaign%3DMLB_MP_APP_AO_P_X_BANNER_SELL_CONV_APP-MULTIPRODUCTO\u0026from=cross_selling_home_point_mp_multiproducto_smart_mlb_all_no_buy_point",
+							"target": "internal_link"
+						}
+					},
+					"background_color": "#2e59af",
+					"content_id": "cross_selling_home_point_mp_multiproducto_smart_mlb_all_no_buy_point",
+					"front_image": "merchengine_home_xselling_multiproducto",
+					"header": "POINT",
+					"text_color": "#ffffff",
+					"title": "ACEITE\nCARTÕES SEM\nPAGAR\nALUGUEL",
+					"title_border_sprite": "merchengine_home_section_cross_selling_border_sprite_light_blue"
+				},
+				"created_at": 1597876929740583200,
+				"end_date": "2025-01-01T03:00:00.000Z",
+				"event_data": {
+					"audience": "all_no_buy_point",
+					"bu": "4",
+					"bu_line": "9",
+					"component_id": "cross_selling_home_mp_0",
+					"content_id": "cross_selling_home_point_mp_multiproducto_smart_mlb_all_no_buy_point",
+					"flow": "49",
+					"logic": "campaigns",
+					"position": 0
+				},
+				"exposure": 100,
+				"id": "cross_selling_home_point_mp_multiproducto_smart_mlb_all_no_buy_point",
+				"priority": 6,
+				"realestate_id": "cross_selling_home_mp",
+				"start_date": "2020-08-19T03:00:00.000Z"
+			}, {
+				"access": {
+					"id": "",
+					"permission": "",
+					"role": null
+				},
+				"content": {
+					"actions": {
+						"content_link": {
+							"action_id": "generic_antenna",
+							"event_data": {},
+							"link": "mercadopago://bill-payments/antenna-recharge?from=antenna_xselling_generic_junio_mlb_all",
+							"target": "internal_link"
+						}
+					},
+					"background_color": "#2E59AF",
+					"content_id": "antenna_xselling_generic_junio_mlb_all",
+					"front_image": "cross_selling_sky_prepago",
+					"header": "SKY PRÉ-PAGO",
+					"text_color": "#FFFFFF",
+					"title": "RECARREGUE SUA PROGRAMAÇÃO ",
+					"title_border_sprite": "merchengine_home_section_cross_selling_border_sprite_dark_blue"
+				},
+				"created_at": 1595390345546408400,
+				"end_date": "2022-01-01T02:00:00.000Z",
+				"event_data": {
+					"audience": "all",
+					"bu": "4",
+					"bu_line": "10",
+					"component_id": "cross_selling_home_mp_1",
+					"content_id": "antenna_xselling_generic_junio_mlb_all",
+					"flow": "-1",
+					"logic": "campaigns",
+					"position": 1
+				},
+				"id": "antenna_xselling_generic_junio_mlb_all",
+				"priority": 1,
+				"realestate_id": "cross_selling_home_mp",
+				"start_date": "2020-06-07T03:00:00.000Z"
+			}, {
+				"access": {
+					"id": "",
+					"permission": "",
+					"role": null
+				},
+				"content": {
+					"actions": {
+						"content_link": {
+							"action_id": "default",
+							"event_data": {},
+							"link": "mercadopago://mplayer/money_request?from=banner_xselling_pedido_mlb",
+							"target": "internal_link"
+						}
+					},
+					"background_color": "#1d2647",
+					"content_id": "banner_xselling_pedido_mlb",
+					"front_image": "banner_pedido_v2",
+					"header": "SOLICITAÇÃO DE DINHEIRO",
+					"text_color": "#FFFFFF",
+					"title": "JUNTE DINHEIRO COM AMIGOS E RECEBA NA HORA",
+					"title_border_sprite": "merchengine_home_section_cross_selling_border_sprite_light_blue"
+				},
+				"created_at": 1595390359401582000,
+				"end_date": "2024-01-01T02:00:00.000Z",
+				"event_data": {
+					"audience": "all",
+					"bu": "4",
+					"bu_line": "10",
+					"component_id": "cross_selling_home_mp_2",
+					"content_id": "banner_xselling_pedido_mlb",
+					"flow": "20",
+					"logic": "user_journey",
+					"position": 2
+				},
+				"id": "banner_xselling_pedido_mlb",
+				"priority": 5,
+				"realestate_id": "cross_selling_home_mp",
+				"start_date": "2020-04-28T13:00:00.000Z"
+			}, {
+				"access": {
+					"id": "",
+					"permission": "",
+					"role": null
+				},
+				"content": {
+					"actions": {
+						"content_link": {
+							"action_id": "default",
+							"event_data": {},
+							"link": "mercadopago://cellphone-recharge?from=cross_selling_home_cellphone_recharge_mp_mlb_all",
+							"target": "internal_link"
+						}
+					},
+					"background_color": "#1d2647",
+					"content_id": "cross_selling_home_cellphone_recharge_mp_mlb_all",
+					"footer": "",
+					"front_image": "merchengine_home_section_cross_selling_recharge_phone",
+					"header": "RECARGA DE CELULAR",
+					"text_color": "#ffffff",
+					"title": "RECARREGUE QUALQUER CELULAR, SEM PAGAR TARIFAS",
+					"title_border_sprite": "merchengine_home_section_cross_selling_border_sprite_light_blue"
+				},
+				"created_at": 1595390351842032400,
+				"end_date": "2099-01-01T23:11:10.000-03:00",
+				"event_data": {
+					"audience": "dormant_never_cellphone_recharge_payer",
+					"bu": "4",
+					"bu_line": "10",
+					"component_id": "cross_selling_home_mp_3",
+					"content_id": "cross_selling_home_cellphone_recharge_mp_mlb_all",
+					"flow": "1",
+					"logic": "user_journey",
+					"position": 3
+				},
+				"id": "cross_selling_home_cellphone_recharge_mp_mlb_all",
+				"priority": 3,
+				"realestate_id": "cross_selling_home_mp",
+				"start_date": "2019-06-19T12:00:00.000-03:00"
+			}, {
+				"access": {
+					"id": "",
+					"permission": "",
+					"role": null
+				},
+				"content": {
+					"actions": {
+						"content_link": {
+							"action_id": "default",
+							"event_data": {},
+							"link": "mercadopago://send_money/?from=cross_selling_home_send_money_mp_mlb_dormant_never_money_transfer_payer",
+							"target": "internal_link"
+						}
+					},
+					"background_color": "#18336A",
+					"content_id": "cross_selling_home_send_money_mp_mlb_dormant_never_money_transfer_payer",
+					"footer": "",
+					"front_image": "merchengine_home_section_cross_selling_send_money",
+					"header": "ENVIO DE DINHEIRO",
+					"text_color": "#ffffff",
+					"title": "ENVIE DINHEIRO NA HORA PARA SEUS AMIGOS",
+					"title_border_sprite": "merchengine_home_section_cross_selling_border_sprite_light_blue"
+				},
+				"created_at": 1595390352813862700,
+				"end_date": "2099-01-01T23:11:10.000-03:00",
+				"event_data": {
+					"audience": "payer",
+					"bu": "4",
+					"bu_line": "10",
+					"component_id": "cross_selling_home_mp_4",
+					"content_id": "cross_selling_home_send_money_mp_mlb_dormant_never_money_transfer_payer",
+					"flow": "4",
+					"logic": "user_journey",
+					"position": 4
+				},
+				"id": "cross_selling_home_send_money_mp_mlb_dormant_never_money_transfer_payer",
+				"priority": 3,
+				"realestate_id": "cross_selling_home_mp",
+				"start_date": "2019-06-19T12:00:00.000-03:00"
+			}, {
+				"access": {
+					"id": "",
+					"permission": "",
+					"role": null
+				},
+				"content": {
+					"actions": {
+						"content_link": {
+							"action_id": "default",
+							"event_data": {},
+							"link": "mercadopago://bill-payments/?from=cross_selling_home_service_mp_mlb_payer_whit_payments",
+							"target": "internal_link"
+						}
+					},
+					"background_color": "#2e59af",
+					"content_id": "cross_selling_home_service_mp_mlb_payer_whit_payments",
+					"footer": "",
+					"front_image": "merchengine_home_section_cross_selling_pay_services",
+					"header": "PAGAMENTO DE BOLETOS",
+					"text_color": "#ffffff",
+					"title": "PAGUE SUAS CONTAS EM ATÉ 12X",
+					"title_border_sprite": "merchengine_home_section_cross_selling_border_sprite_light_blue"
+				},
+				"created_at": 1595390353712500500,
+				"end_date": "2099-01-01T23:11:10.000-03:00",
+				"event_data": {
+					"audience": "dormant_never_utilities_payer",
+					"bu": "4",
+					"bu_line": "10",
+					"component_id": "cross_selling_home_mp_5",
+					"content_id": "cross_selling_home_service_mp_mlb_payer_whit_payments",
+					"flow": "2",
+					"logic": "user_journey",
+					"position": 5
+				},
+				"exposure": 100,
+				"id": "cross_selling_home_service_mp_mlb_payer_whit_payments",
+				"priority": 3,
+				"realestate_id": "cross_selling_home_mp",
+				"start_date": "2019-06-19T12:00:00.000-03:00"
+			}, {
+				"access": {
+					"id": "",
+					"permission": "",
+					"role": null
+				},
+				"content": {
+					"actions": {
+						"content_link": {
+							"action_id": "default",
+							"event_data": {},
+							"link": "mercadopago://moneyin/select_method?from=cross_selling_home_cobranded_mp_mlb_never_account_funding_range",
+							"target": "internal_link"
+						}
+					},
+					"background_color": "#1d2647",
+					"content_id": "cross_selling_home_cobranded_mp_mlb_never_account_funding_range",
+					"footer": "",
+					"front_image": "merchengine_home_section_cross_selling_send_money_mlb_2019_10_b",
+					"header": "ADICIONE DINHEIRO",
+					"text_color": "#ffffff",
+					"title": "FAÇA UMA TED DE QUALQUER CONTA BANCÁRIA OU DIGITAL",
+					"title_border_sprite": "merchengine_home_section_cross_selling_border_sprite_light_blue"
+				},
+				"created_at": 1595390355106413800,
+				"end_date": "2099-01-01T23:11:10.000-03:00",
+				"event_data": {
+					"audience": "never_account_funding_range",
+					"bu": "4",
+					"bu_line": "3",
+					"component_id": "cross_selling_home_mp_6",
+					"content_id": "cross_selling_home_cobranded_mp_mlb_never_account_funding_range",
+					"flow": "9",
+					"logic": "user_journey",
+					"position": 6
+				},
+				"id": "cross_selling_home_cobranded_mp_mlb_never_account_funding_range",
+				"priority": 3,
+				"realestate_id": "cross_selling_home_mp",
+				"start_date": "2019-06-19T12:00:00.000-03:00"
+			}, {
+				"access": {
+					"id": "",
+					"permission": "",
+					"role": null
+				},
+				"content": {
+					"actions": {
+						"content_link": {
+							"action_id": "default",
+							"event_data": {},
+							"link": "mercadopago://asset-management/?from=cross_selling_home_asset_management_mp_mlb_asset_management_eligible_mlb",
+							"target": "internal_link"
+						}
+					},
+					"background_color": "#00b1ea",
+					"content_id": "cross_selling_home_asset_management_mp_mlb_asset_management_eligible_mlb",
+					"footer": "",
+					"front_image": "merchengine_home_section_cross_selling_asset_management",
+					"header": "GERAR REDIMENTOS",
+					"text_color": "#ffffff",
+					"title": "GERE RETORNOS E USE-OS QUANDO QUISER",
+					"title_border_sprite": "merchengine_home_section_cross_selling_border_sprite_dark_blue"
+				},
+				"created_at": 1595395250242353000,
+				"end_date": "2099-01-01T23:11:10.000-03:00",
+				"event_data": {
+					"audience": "asset_management_eligible",
+					"bu": "4",
+					"bu_line": "3",
+					"component_id": "cross_selling_home_mp_7",
+					"content_id": "cross_selling_home_asset_management_mp_mlb_asset_management_eligible_mlb",
+					"flow": "10",
+					"logic": "user_journey",
+					"position": 7
+				},
+				"id": "cross_selling_home_asset_management_mp_mlb_asset_management_eligible_mlb",
+				"priority": 3,
+				"realestate_id": "cross_selling_home_mp",
+				"start_date": "2019-06-19T12:00:00.000-03:00"
+			}, {
+				"access": {
+					"id": "",
+					"permission": "",
+					"role": null
+				},
+				"content": {
+					"actions": {
+						"content_link": {
+							"action_id": "default",
+							"event_data": {},
+							"link": "mercadopago://cards-request/hybrid/init-point?from=home_carrousel_virtual_awareness_unknown",
+							"target": "internal_link"
+						}
+					},
+					"background_color": "#232A37",
+					"content_id": "virtual_awareness_cross_selling_mlb_unknown",
+					"front_image": "merchengine_crosselling_prepaid_virtual",
+					"header": "CARTÃO MERCADO PAGO",
+					"text_color": "#FFFFFF",
+					"title": "COMPRE PELA INTERNET COM SUA CONTA DIGITAL",
+					"title_border_sprite": "merchengine_home_section_cross_selling_border_sprite_light_blue"
+				},
+				"created_at": 1603914749198494200,
+				"end_date": "2025-01-02T03:00:00.000Z",
+				"event_data": {
+					"audience": "all_unknown_virtual_debit_available",
+					"bu": "4",
+					"bu_line": "3",
+					"component_id": "cross_selling_home_mp_8",
+					"content_id": "virtual_awareness_cross_selling_mlb_unknown",
+					"flow": "16",
+					"logic": "user_journey",
+					"position": 8
+				},
+				"exposure": 100,
+				"id": "virtual_awareness_cross_selling_mlb_unknown",
+				"priority": 3,
+				"realestate_id": "cross_selling_home_mp",
+				"start_date": "2020-10-28T03:00:00.000Z"
+			}, {
+				"access": {
+					"id": "",
+					"permission": "",
+					"role": null
+				},
+				"content": {
+					"actions": {
+						"content_link": {
+							"action_id": "default",
+							"event_data": {},
+							"link": "mercadopago://mp/qr/discover?additional_info=%7B%0A%22title%22%3A%20%22%22%2C%0A%22subtitle%22%3A%20%22Pagar%20com%20c%C3%B3digo%20QR%20%C3%A9%20muito%20f%C3%A1cil!%22%2C%0A%22message%22%3A%20%22Basta%20informar%20o%20vendedor%20que%20voc%C3%AA%20quer%20pagar%20com%20c%C3%B3digo%20QR%2C%20escanear%20o%20c%C3%B3digo%20com%20sua%20c%C3%A2mera%20e%20pronto!%20Aproveite%20tamb%C3%A9m%20descontos%20incr%C3%ADveis%20nas%20suas%20lojas%20favoritas.%22%2C%0A%22icon_base_url%22%3A%20%22https%3A%2F%2Fhttp2.mlstatic.com%2Fresources%2Fmpmobile%2Finstore%2Fftu%2Fwallet%2Fftu_qr_payers-%22%2C%0A%22icon_type%22%3A%20%22png%22%2C%0A%22actions%22%3A%20%5B%0A%7B%0A%22id%22%3A%20%22primary%22%2C%0A%22label%22%3A%20%22Ver%20descontos%20com%20c%C3%B3digo%20QR%22%2C%0A%22link%22%3A%20%22mercadopago%3A%2F%2Fdiscount_center_payers%2Flist%22%2C%0A%22type%22%3A%20%22button%22%2C%0A%22tracking_info%22%3A%20%7B%0A%22well_known_entries%22%3A%20%7B%0A%22action_track_id%22%3A%20%22discovery%22%0A%7D%2C%0A%22unknown_entries%22%3A%20%7B%7D%0A%7D%0A%7D%0A%5D%2C%0A%22tracking_info%22%3A%20%7B%0A%22well_known_entries%22%3A%20%7B%0A%22campaign%22%3A%20%22journey_payers_qr%22%0A%7D%2C%0A%22unknown_entries%22%3A%20%7B%0A%22source%22%3A%20%22merch%22%2C%0A%22brand%22%3A%20%22qrv%22%0A%7D%0A%7D%0A%7D\u0026from=instore_never_qr_payers_mlb",
+							"target": "internal_link"
+						}
+					},
+					"background_color": "#2e59af",
+					"content_id": "instore_never_qr_payers_mlb",
+					"footer": "",
+					"front_image": "merch_engine_qr_payers",
+					"header": "CÓDIGO QR",
+					"text_color": "#ffffff",
+					"title": "PAGUE SÓ\nCOM O\nCELULAR",
+					"title_border_sprite": "merchengine_home_section_cross_selling_border_sprite_light_blue"
+				},
+				"created_at": 1595390356973207800,
+				"end_date": "2099-12-31T23:59:00.000-03:00",
+				"event_data": {
+					"audience": "never_qr_payer",
+					"bu": "4",
+					"bu_line": "10",
+					"component_id": "cross_selling_home_mp_9",
+					"content_id": "instore_never_qr_payers_mlb",
+					"flow": "5",
+					"logic": "user_journey",
+					"position": 9
+				},
+				"exposure": 100,
+				"id": "instore_never_qr_payers_mlb",
+				"priority": 1,
+				"realestate_id": "cross_selling_home_mp",
+				"start_date": "2020-02-02T00:00:01.000-03:00"
+			}]
+		},
+		"start_date": "2019-04-20T12:00:00-03:00",
+		"end_date": "2999-04-20T12:00:00-03:00"
+	}, {
+		"ordinal": 8,
+		"id": "benefits",
+		"type": "VERTICAL_LIST",
+		"partial": false,
+		"content": {
+			"actions": {},
+			"header": {
+				"title": ""
+			},
+			"items": [{
+				"access": {
+					"id": "",
+					"permission": "",
+					"role": null
+				},
+				"content": {
+					"actions": {
+						"content_link": {
+							"action_id": "action_point",
+							"event_data": {},
+							"link": "mercadopago://mgm_point?from=mlb_advice_2_mgm_seller_all_mp",
+							"target": "internal_link"
+						}
+					},
+					"content_id": "mlb_advice_2_mgm_seller_all_mp",
+					"icon": "merchengine_mgm-point_icon_mp_mlb-mlm",
+					"title": "Recomende a Point e ganhe R$ 150"
+				},
+				"created_at": 1593483597693162800,
+				"end_date": "2099-01-01T23:11:10.000-03:00",
+				"event_data": {
+					"audience": "all",
+					"bu": "4",
+					"bu_line": "10",
+					"component_id": "discount_benefits_mp_0",
+					"content_id": "mlb_advice_2_mgm_seller_all_mp",
+					"flow": "-1",
+					"logic": "user_journey",
+					"position": 0
+				},
+				"exposure": 100,
+				"id": "mlb_advice_2_mgm_seller_all_mp",
+				"priority": 9,
+				"realestate_id": "discount_benefits_mp",
+				"start_date": "2019-01-01T12:00:00.000-03:00"
+			}, {
+				"access": {
+					"id": "",
+					"permission": "",
+					"role": null
+				},
+				"content": {
+					"actions": {
+						"content_link": {
+							"action_id": "action_descuento",
+							"event_data": {},
+							"link": "mercadopago://coupon/input?title=Cupom%20de%20desconto\u0026input_title=Insira%20seu%20cupom%20para%20obter%20um%20benef%C3%ADcio\u0026from=mlb_discount_benefits_coupon_payer_mp",
+							"target": "internal_link"
+						}
+					},
+					"content_id": "mlb_discount_benefits_coupon_payer_mp",
+					"icon": "merchengine_coupon_icon_mp",
+					"title": "Insira seu cupom"
+				},
+				"created_at": 1593483933680864000,
+				"end_date": "9999-05-28T12:11:01.000-03:00",
+				"event_data": {
+					"audience": "mgm_single_player",
+					"bu": "4",
+					"bu_line": "10",
+					"component_id": "discount_benefits_mp_1",
+					"content_id": "mlb_discount_benefits_coupon_payer_mp",
+					"flow": "-1",
+					"logic": "user_journey",
+					"position": 1
+				},
+				"id": "mlb_discount_benefits_coupon_payer_mp",
+				"priority": 8,
+				"realestate_id": "discount_benefits_mp",
+				"start_date": "2019-01-01T23:11:10.000-03:00"
+			}, {
+				"access": {
+					"id": "",
+					"permission": "",
+					"role": null
+				},
+				"content": {
+					"actions": {
+						"content_link": {
+							"action_id": "action_payers",
+							"event_data": {},
+							"link": "mercadopago://mgm/share?program_id=2\u0026from=mlb_mgm_payers_all_mp",
+							"target": "internal_link"
+						}
+					},
+					"content_id": "mlb_mgm_payers_all_mp",
+					"icon": "mgm_row_benefits_home",
+					"title": "Indique o app e ganhe R$ 10"
+				},
+				"created_at": 1610388092805239800,
+				"end_date": "2025-04-01T03:00:00.000Z",
+				"event_data": {
+					"audience": "all",
+					"bu": "4",
+					"bu_line": "10",
+					"component_id": "discount_benefits_mp_2",
+					"content_id": "mlb_mgm_payers_all_mp",
+					"flow": "20",
+					"logic": "user_journey",
+					"position": 2
+				},
+				"exposure": 100,
+				"id": "mlb_mgm_payers_all_mp",
+				"priority": 8,
+				"realestate_id": "discount_benefits_mp",
+				"start_date": "2021-01-11T03:00:00.000Z"
+			}]
+		},
+		"start_date": "2019-04-20T12:00:00-03:00",
+		"end_date": "2999-04-20T12:00:00-03:00"
+	}, {
+		"ordinal": 9,
+		"id": "subscription",
+		"type": "SUBSCRIPTION",
+		"partial": false,
+		"content": {
+			"content_cards": {
+				"cards": [{
+					"image": "https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/vdp/widget-disney@2x.png?v=1",
+					"link": "mercadopago://loyalty/webview?url=https%3A%2F%2Fwww.mercadopago.com.br%2Fassinaturas%2Fdisneyplus%23origin%3Dmp_home\u0026title=Disney%2B\u0026use_web_title=false\u0026mp_back=arrow\u0026loading_mode=none\u0026authenticate=true",
+					"logo": {
+						"image": "https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/vdp/disney-brand@2x.png?v=1",
+						"position": "left",
+						"size": 48
+					},
+					"subtitle": {
+						"color": "#ffffff",
+						"label": "Disney+"
+					},
+					"title": {
+						"color": "#ffffff",
+						"label": "Até 6 meses de presente"
+					}
+				}, {
+					"image": "https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/vdp/hb-oimg-widget-multipartner@2x.jpg?v=1",
+					"link": "mercadopago://loyalty/webview?url=https%3A%2F%2Fwww.mercadopago.com.br%2Fassinaturas%2Fhbo%23origin%3Dmp_home\u0026title=HBO%20GO\u0026use_web_title=false\u0026mp_back=arrow\u0026loading_mode=none\u0026authenticate=true",
+					"logo": {
+						"image": "https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/vdp/vdp-logo-hbo-email@2x.png?v=1",
+						"position": "left",
+						"size": 48
+					},
+					"subtitle": {
+						"color": "#ffffff",
+						"label": "HBO GO"
+					},
+					"title": {
+						"color": "#ffffff",
+						"label": "Até 45% OFF"
+					}
+				}],
+				"height": 168,
+				"pager_animation": true,
+				"shadow": true,
+				"width": 248
+			},
+			"event_data": {
+				"level": 1,
+				"partner": "multi-partner"
+			},
+			"header": {
+				"has_divider": true,
+				"title": {
+					"color": "#333333",
+					"label": "Assinaturas com benefícios\npelo seu nível"
+				}
+			},
+			"track": {
+				"origin": "mp_home",
+				"partner_name": "multi-partner"
+			}
+		}
+	}, {
+		"ordinal": 10,
+		"id": "activities",
+		"type": "ACTIVITIES",
+		"partial": false,
+		"content": {
+			"event_data": {
+				"quantity": 0,
+				"is_ftu": true,
+				"has_footer": false
+			},
+			"ftu": {
+				"title": "Suas transações em um só lugar",
+				"message": "Aqui você verá toda a sua atividade para não deixar passar nada.",
+				"icon": "wallet_home_activities_ftu_icon"
+			},
+			"refresh_after_seconds": 45
+		}
+	}, {
+		"ordinal": 11,
+		"id": "loyalty",
+		"type": "LOYALTY",
+		"partial": false,
+		"content": {
+			"header": {
+				"level": 1,
+				"percentage": 0.35,
+				"title": "Benefícios",
+				"subtitle": "Nível 1 - Mercado Pontos",
+				"primary_color": "#009EE3",
+				"text_color": "#FFFFFF",
+				"secondary_color": "#99D8F3"
+			},
+			"benefits": [{
+				"icon": "https://http2.mlstatic.com/resources/frontend/statics/loyal/ic-cupones-app-v3-2x.png",
+				"description": "Descontos pagando com código QR nos seus locais favoritos",
+				"primary_color": "#009EE3"
+			}, {
+				"icon": "https://http2.mlstatic.com/resources/frontend/statics/loyal/ic-envios-app-v3-2x.png",
+				"description": "Frete grátis em produtos a partir de R$ 99",
+				"primary_color": "#009EE3"
+			}, {
+				"icon": "https://http2.mlstatic.com/resources/frontend/statics/loyal/ic-suscripciones-app-2x.png",
+				"description": "Benefícios em assinaturas",
+				"primary_color": "#009EE3"
+			}, {
+				"icon": "https://http2.mlstatic.com/resources/frontend/statics/loyal/ic-devoluciones-app-v3-2x.png",
+				"description": "Devoluções grátis",
+				"primary_color": "#009EE3"
+			}],
+			"action": {
+				"label": "Ir para Mercado Pontos",
+				"target": "mercadopago://loyalty/webview?url=https%3A%2F%2Fwww.mercadopago.com.br%2Fmercado-pontos%23origin%3Dwidget_home\u0026title=Mercado%20Pontos\u0026use_web_title=false\u0026mp_back=menu\u0026loading_mode=none\u0026authenticate=true",
+				"accessibility_text": "Acessar o Mercado Pontos"
+			},
+			"event_data": {
+				"level": 1,
+				"percentage": 0.35
+			}
+		}
+	}],
+	"tracking_info": {
+		"events": {
+			"print": {
+				"event_data": {},
+				"stream": "component_prints"
+			},
+			"pull": {
+				"event_data": {}
+			},
+			"show": {
+				"event_data": {}
+			}
+		}
+	}
+}
